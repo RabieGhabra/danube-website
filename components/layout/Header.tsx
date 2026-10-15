@@ -273,9 +273,9 @@ export const Header = ({
                           <button
                             type="button"
                             onClick={() =>
-                              window.location.pathname === "/"
-                                ? window.location.reload()
-                                : (window.location.href = "/")
+                            window.location.pathname === "/danube-website/"
+                              ? window.location.reload()
+                              : (window.location.href = "/danube-website/")
                             }
                             className="cursor-pointer whitespace-nowrap text-[16px] font-semibold leading-6 tracking-normal transition-opacity"
                           >
