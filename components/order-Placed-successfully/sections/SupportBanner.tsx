@@ -1,4 +1,5 @@
-﻿/* eslint-disable @next/next/no-img-element */
+﻿import { assetPath } from "@/lib/asset-path";
+/* eslint-disable @next/next/no-img-element */
 import { Button } from "@/components/ui/button";
 import React from "react";
 
@@ -14,7 +15,7 @@ const SupportBanner = () => (
       {/* Icon */}
       <div className="h-8 w-8 shrink-0 sm:h-10 sm:w-10">
         <img
-          src="/danube-website/assets/icons/operator-(1).png"
+          src={assetPath("/assets/icons/operator-(1).png")}
           alt="Support Agent"
           className="h-5 w-5 object-contain sm:h-6 sm:w-6"
         />

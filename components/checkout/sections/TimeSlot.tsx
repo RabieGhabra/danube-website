@@ -1,5 +1,6 @@
 ﻿/* eslint-disable @next/next/no-img-element */
 "use client";
+import { assetPath } from "@/lib/asset-path";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 
@@ -17,7 +18,7 @@ export const TimeSlot = () => {
         {/* Header Section */}
         <div className="mb-5 flex items-center gap-3">
           <img
-            src="/danube-website/assets/icons/time-slot.png"
+            src={assetPath("/assets/icons/time-slot.png")}
             alt="Voucher"
             className="h-auto w-auto shrink-0 object-contain"
           />

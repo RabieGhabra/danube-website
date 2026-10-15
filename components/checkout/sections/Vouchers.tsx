@@ -1,5 +1,6 @@
 ﻿/* eslint-disable @next/next/no-img-element */
 "use client";
+import { assetPath } from "@/lib/asset-path";
 import React from "react";
 
 type Voucher = {
@@ -22,7 +23,7 @@ export const Vouchers = () => {
       <div className="mb-5 flex w-full flex-col min-[280px]:flex-row min-[280px]:items-center min-[280px]:justify-between">
         <div className="flex items-center gap-3">
           <img
-            src="/danube-website/assets/icons/voucher.png"
+            src={assetPath("/assets/icons/voucher.png")}
             alt="Voucher"
             className="h-auto w-auto shrink-0 object-contain"
           />
@@ -34,7 +35,7 @@ export const Vouchers = () => {
 
         <div className="cursor-pointer flex shrink-0 items-center gap-2 text-sm font-semibold text-primary sm:gap-4 sm:text-base">
           <img
-            src="/danube-website/assets/icons/edit.png"
+            src={assetPath("/assets/icons/edit.png")}
             alt="Edit"
             className="object-contain"
           />
@@ -80,7 +81,7 @@ export const Vouchers = () => {
               {/* Top Section */}
               <div className="flex items-center gap-2 pb-4 sm:gap-3">
                 <img
-                  src="/danube-website/assets/icons/gift-(1).png"
+                  src={assetPath("/assets/icons/gift-(1).png")}
                   alt="Gift"
                   className="h-auto w-auto shrink-0 object-contain"
                 />
@@ -91,7 +92,7 @@ export const Vouchers = () => {
                       Enjoy{" "}
                       <span className="inline-flex items-center gap-1">
                         <img
-                          src="/danube-website/assets/icons/sar.png"
+                          src={assetPath("/assets/icons/sar.png")}
                           alt="sar"
                           className="h-4 w-4 object-contain"
                         />
@@ -108,7 +109,7 @@ export const Vouchers = () => {
               {/* Divider Image */}
               <div className="relative mb-4">
                 <img
-                  src="/danube-website/assets/icons/divider.png"
+                  src={assetPath("/assets/icons/divider.png")}
                   alt="Divider"
                   className="h-auto w-full object-contain"
                 />

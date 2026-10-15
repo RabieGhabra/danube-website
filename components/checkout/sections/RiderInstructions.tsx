@@ -1,5 +1,6 @@
 ﻿/* eslint-disable @next/next/no-img-element */
 "use client";
+import { assetPath } from "@/lib/asset-path";
 import { Card, CardContent } from "@/components/ui/card";
 import { Textarea } from "@/components/ui/textarea";
 
@@ -11,7 +12,7 @@ export const RiderInstructions = () => {
         {/* Header */}
         <div className="mb-5 flex items-center gap-3">
           <img
-            src="/danube-website/assets/icons/rider.png"
+            src={assetPath("/assets/icons/rider.png")}
             alt="Rider Instructions"
             className="object-contain w-8 h-8 sm:w-10 sm:h-10"
           />

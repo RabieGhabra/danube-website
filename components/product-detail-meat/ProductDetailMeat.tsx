@@ -1,5 +1,6 @@
 ﻿/* eslint-disable @next/next/no-img-element */
 "use client";
+import { assetPath } from "@/lib/asset-path";
 import { Header } from "../layout/Header";
 import { Footer } from "../layout/Footer";
 import { ProductCard } from "@/components/products/ProductCard";
@@ -10,11 +11,11 @@ import ProductGallery from "../products/ProductGallery";
 import ProductAccordion from "../products/ProductAccordion";
 
 const products = [
-  { title: "Danube Imported\nBanana 1 kg", image: "/danube-website/assets/images/banana.png", oldPrice: "20.00" },
-  { title: "Danube Cucumber\n(Tray) 900g", image: "/danube-website/assets/images/cucumber.png", oldPrice: "20.00" },
-  { title: "Danube Tomato\n1kg", image: "/danube-website/assets/images/tomato.png", oldPrice: "20.00" },
-  { title: "Danube Imported\nBanana 1 kg", image: "/danube-website/assets/images/bread.png", oldPrice: "20.00" },
-  { title: "Danube Imported\nBanana 1 kg", image: "/danube-website/assets/images/parsley.png", oldPrice: "20.00" },
+  { title: "Danube Imported\nBanana 1 kg", image: assetPath("/assets/images/banana.png"), oldPrice: "20.00" },
+  { title: "Danube Cucumber\n(Tray) 900g", image: assetPath("/assets/images/cucumber.png"), oldPrice: "20.00" },
+  { title: "Danube Tomato\n1kg", image: assetPath("/assets/images/tomato.png"), oldPrice: "20.00" },
+  { title: "Danube Imported\nBanana 1 kg", image: assetPath("/assets/images/bread.png"), oldPrice: "20.00" },
+  { title: "Danube Imported\nBanana 1 kg", image: assetPath("/assets/images/parsley.png"), oldPrice: "20.00" },
 ];
 
 export const ProductDetailMeat = () => {
@@ -31,13 +32,13 @@ export const ProductDetailMeat = () => {
           <div className="w-full min-[1420px]:w-auto min-[1420px]:shrink-0">
             <ProductGallery
               thumbnails={[
-                "/danube-website/assets/images/meat-small.png",
-                "/danube-website/assets/images/meat-small.png",
-                "/danube-website/assets/images/meat-small.png",
-                "/danube-website/assets/images/meat-small.png",
-                "/danube-website/assets/images/coffee-jar-small.png",
+                assetPath("/assets/images/meat-small.png"),
+                assetPath("/assets/images/meat-small.png"),
+                assetPath("/assets/images/meat-small.png"),
+                assetPath("/assets/images/meat-small.png"),
+                assetPath("/assets/images/coffee-jar-small.png"),
               ]}
-              mainImage="/danube-website/assets/images/meat-big.png"
+              mainImage={assetPath("/assets/images/meat-big.png")}
             />
           </div>
 
@@ -50,7 +51,7 @@ export const ProductDetailMeat = () => {
           nutritionContent={
             <div className="flex justify-center py-6 sm:py-8 md:py-10 lg:py-12">
               <img
-                src="/danube-website/assets/images/nutrition-facts.png"
+                src={assetPath("/assets/images/nutrition-facts.png")}
                 alt="Nutrition Facts"
               />
             </div>

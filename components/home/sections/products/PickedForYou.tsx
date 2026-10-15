@@ -1,12 +1,13 @@
-﻿import Container from "@/components/ui/container";
+﻿import { assetPath } from "@/lib/asset-path";
+import Container from "@/components/ui/container";
 import { ProductCard } from "@/components/products/ProductCard";
 
 const products = [
-  { title: "Al-Watania Poultry\nMedium-Large...", image: "/danube-website/assets/images/eggs.png" },
-  { title: "Kinza Cola\nCarbonated Drink", image: "/danube-website/assets/images/Kinza.png" },
-  { title: "Danube Tomato\n1kg", image: "/danube-website/assets/images/tomato.png" },
-  { title: "Danube Imported\nBanana 1 kg", image: "/danube-website/assets/images/bread.png" },
-  { title: "Danube Imported\nBanana 1 kg", image: "/danube-website/assets/images/parsley.png" },
+  { title: "Al-Watania Poultry\nMedium-Large...", image: assetPath("/assets/images/eggs.png") },
+  { title: "Kinza Cola\nCarbonated Drink", image: assetPath("/assets/images/Kinza.png") },
+  { title: "Danube Tomato\n1kg", image: assetPath("/assets/images/tomato.png") },
+  { title: "Danube Imported\nBanana 1 kg", image: assetPath("/assets/images/bread.png") },
+  { title: "Danube Imported\nBanana 1 kg", image: assetPath("/assets/images/parsley.png") },
 ];
 
 export const PickedForYou = () => {

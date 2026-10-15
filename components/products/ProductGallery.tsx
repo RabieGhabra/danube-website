@@ -1,5 +1,6 @@
 ﻿/* eslint-disable @next/next/no-img-element */
 "use client";
+import { assetPath } from "@/lib/asset-path";
 import { useState } from "react";
 import { Button } from "@/components/ui/button";
 import { Badge } from "../ui/badge";
@@ -27,7 +28,7 @@ const ProductGallery = ({
           className="absolute -top-4 hidden h-10 w-10 items-center justify-center p-0 md:flex"
         >
           <img
-            src="/danube-website/assets/icons/Group-78194.png"
+            src={assetPath("/assets/icons/Group-78194.png")}
             className="h-8 w-8 cursor-pointer object-contain"
             alt="up"
           />
@@ -60,7 +61,7 @@ const ProductGallery = ({
           className="absolute -bottom-4 hidden h-10 w-10 items-center justify-center p-0 md:flex"
         >
           <img
-            src="/danube-website/assets/icons/Group-78192.png"
+            src={assetPath("/assets/icons/Group-78192.png")}
             className="h-8 w-8 cursor-pointer object-contain"
             alt="down"
           />
@@ -85,7 +86,7 @@ const ProductGallery = ({
           }}
         >
           <img
-            src="/danube-website/assets/icons/discount-shape-(2).png"
+            src={assetPath("/assets/icons/discount-shape-(2).png")}
             alt="sale"
             className="h-5 w-5 object-contain md:h-6 md:w-6"
           />
@@ -100,7 +101,7 @@ const ProductGallery = ({
           className="absolute right-3 top-3 z-10 flex h-11.25 w-11.25 items-center justify-center p-0 md:right-5 md:top-5"
         >
           <img
-            src="/danube-website/assets/icons/heart-circle.png"
+            src={assetPath("/assets/icons/heart-circle.png")}
             alt="favorite"
             className="h-12 w-12 cursor-pointer object-contain md:h-14 md:w-14"
           />

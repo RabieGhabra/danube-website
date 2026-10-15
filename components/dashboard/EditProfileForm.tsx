@@ -1,5 +1,6 @@
 ﻿/* eslint-disable @next/next/no-img-element */
 "use client";
+import { assetPath } from "@/lib/asset-path";
 import { Input } from "../ui/input";
 import { Button } from "../ui/button";
 
@@ -50,7 +51,7 @@ export const EditProfileForm = () => {
             className="w-32 h-32 sm:w-40 sm:h-40 rounded-full flex items-center justify-center"
             style={{ border: "3px solid #97E080", padding: "2px" }}
           >
-            <img src="/danube-website/assets/images/profile.png" alt="Profile" className="w-full h-full object-cover rounded-full" />
+            <img src={assetPath("/assets/images/profile.png")} alt="Profile" className="w-full h-full object-cover rounded-full" />
           </div>
 
           <Button
@@ -58,7 +59,7 @@ export const EditProfileForm = () => {
             className="cursor-pointer absolute bottom-2 right-4 p-0 rounded-full transition z-30 flex items-center justify-center shadow-sm"
             style={{ backgroundColor: "#97E080", width: "27px", height: "27px" }}
           >
-            <img src="/danube-website/assets/icons/edit-(1).png" alt="Edit" style={{ width: "16px", height: "16px", objectFit: "contain" }} />
+            <img src={assetPath("/assets/icons/edit-(1).png")} alt="Edit" style={{ width: "16px", height: "16px", objectFit: "contain" }} />
           </Button>
         </div>
 
@@ -80,7 +81,7 @@ export const EditProfileForm = () => {
               <option>Ms.</option>
             </select>
             <div className="pointer-events-none absolute inset-y-0 right-0 top-4 flex items-center px-3">
-              <img src="/danube-website/assets/icons/chevron-down.png" alt="" className="w-4 h-2 object-contain" />
+              <img src={assetPath("/assets/icons/chevron-down.png")} alt="" className="w-4 h-2 object-contain" />
             </div>
           </div>
         </div>
@@ -104,7 +105,7 @@ export const EditProfileForm = () => {
               className="flex items-center justify-center border border-transparent rounded-lg px-3 shadow-sm shrink-0 w-full max-w-29"
               style={whiteInputStyle}
             >
-              <img src="/danube-website/assets/icons/ksa.png" alt="KSA" className="w-8 h-6 object-cover mr-2" />
+              <img src={assetPath("/assets/icons/ksa.png")} alt="KSA" className="w-8 h-6 object-cover mr-2" />
               <span className="font-medium text-[16px] leading-none tracking-normal text-primary">+116</span>
             </div>
 

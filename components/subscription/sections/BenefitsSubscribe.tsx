@@ -1,20 +1,21 @@
 ﻿/* eslint-disable @next/next/no-img-element */
 "use client";
+import { assetPath } from "@/lib/asset-path";
 import Container from "../../ui/container";
 import { Button } from "@/components/ui/button";
 
 const images = {
-  delivery: "/danube-website/assets/icons/delivery.png",
-  minOrder: "/danube-website/assets/icons/min-order.png",
-  charity: "/danube-website/assets/icons/charity.png",
-  customer: "/danube-website/assets/icons/customer.png",
-  promotions: "/danube-website/assets/icons/promotions.png",
-  prices: "/danube-website/assets/icons/prices.png",
-  num1: "/danube-website/assets/images/1.png",
-  num2: "/danube-website/assets/images/2.png",
-  num3: "/danube-website/assets/images/3.png",
-  num4: "/danube-website/assets/images/4.png",
-  num5: "/danube-website/assets/images/5.png",
+  delivery: assetPath("/assets/icons/delivery.png"),
+  minOrder: assetPath("/assets/icons/min-order.png"),
+  charity: assetPath("/assets/icons/charity.png"),
+  customer: assetPath("/assets/icons/customer.png"),
+  promotions: assetPath("/assets/icons/promotions.png"),
+  prices: assetPath("/assets/icons/prices.png"),
+  num1: assetPath("/assets/images/1.png"),
+  num2: assetPath("/assets/images/2.png"),
+  num3: assetPath("/assets/images/3.png"),
+  num4: assetPath("/assets/images/4.png"),
+  num5: assetPath("/assets/images/5.png"),
 };
 
 const benefits = [

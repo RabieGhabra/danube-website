@@ -1,12 +1,13 @@
-﻿import Container from "@/components/ui/container";
+﻿import { assetPath } from "@/lib/asset-path";
+import Container from "@/components/ui/container";
 import { ProductCard } from "@/components/products/ProductCard";
 
 const products = [
-  { title: "Chocolate Swiss Roll Cake", image: "/danube-website/assets/images/cake.png" },
-  { title: "Alyoum Cookly Chicken\nFillet with Teriyaki Sauce..", image: "/danube-website/assets/images/chicken.png" },
-  { title: "Danube Tomato\n1kg", image: "/danube-website/assets/images/tomato.png" },
-  { title: "Danube Imported\nBanana 1 kg", image: "/danube-website/assets/images/bread.png" },
-  { title: "Danube Imported\nBanana 1 kg", image: "/danube-website/assets/images/parsley.png" },
+  { title: "Chocolate Swiss Roll Cake", image: assetPath("/assets/images/cake.png") },
+  { title: "Alyoum Cookly Chicken\nFillet with Teriyaki Sauce..", image: assetPath("/assets/images/chicken.png") },
+  { title: "Danube Tomato\n1kg", image: assetPath("/assets/images/tomato.png") },
+  { title: "Danube Imported\nBanana 1 kg", image: assetPath("/assets/images/bread.png") },
+  { title: "Danube Imported\nBanana 1 kg", image: assetPath("/assets/images/parsley.png") },
 ];
 
 export const ProductsForYou = () => {

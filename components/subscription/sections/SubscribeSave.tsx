@@ -1,29 +1,30 @@
 ﻿/* eslint-disable @next/next/no-img-element */
 "use client";
+import { assetPath } from "@/lib/asset-path";
 import Container from "../../ui/container";
 
 export const SubscribeSave = () => {
   const images = {
-    subscribeSave: "/danube-website/assets/images/subscribe-save.png",
-    colgate: "/danube-website/assets/images/colgate.png",
-    mint: "/danube-website/assets/images/mint.png",
-    bread: "/danube-website/assets/images/bread-(3).png",
-    kinza: "/danube-website/assets/images/kinza-(2).png",
-    someByMi: "/danube-website/assets/images/somebymi.png",
-    dreamWhip: "/danube-website/assets/images/dreamwhip.png",
-    popcorn: "/danube-website/assets/images/popcorn-(2).png",
-    chipsy: "/danube-website/assets/images/chipsy.png",
-    chupaChups: "/danube-website/assets/images/chupachups.png",
-    lollipop: "/danube-website/assets/images/lollipop.png",
-    coin1: "/danube-website/assets/images/coin-(1).png",
-    coin2: "/danube-website/assets/images/coin-(2).png",
-    coin3: "/danube-website/assets/images/coin-(3).png",
-    coin4: "/danube-website/assets/images/coin-(4).png",
-    coin5: "/danube-website/assets/images/coin-(5).png",
-    coin6: "/danube-website/assets/images/coin-(6).png",
-    coin7: "/danube-website/assets/images/coin-(7).png",
-    coin8: "/danube-website/assets/images/coin-(8).png",
-    coin9: "/danube-website/assets/images/coin-(9).png",
+    subscribeSave: assetPath("/assets/images/subscribe-save.png"),
+    colgate: assetPath("/assets/images/colgate.png"),
+    mint: assetPath("/assets/images/mint.png"),
+    bread: assetPath("/assets/images/bread-(3).png"),
+    kinza: assetPath("/assets/images/kinza-(2).png"),
+    someByMi: assetPath("/assets/images/somebymi.png"),
+    dreamWhip: assetPath("/assets/images/dreamwhip.png"),
+    popcorn: assetPath("/assets/images/popcorn-(2).png"),
+    chipsy: assetPath("/assets/images/chipsy.png"),
+    chupaChups: assetPath("/assets/images/chupachups.png"),
+    lollipop: assetPath("/assets/images/lollipop.png"),
+    coin1: assetPath("/assets/images/coin-(1).png"),
+    coin2: assetPath("/assets/images/coin-(2).png"),
+    coin3: assetPath("/assets/images/coin-(3).png"),
+    coin4: assetPath("/assets/images/coin-(4).png"),
+    coin5: assetPath("/assets/images/coin-(5).png"),
+    coin6: assetPath("/assets/images/coin-(6).png"),
+    coin7: assetPath("/assets/images/coin-(7).png"),
+    coin8: assetPath("/assets/images/coin-(8).png"),
+    coin9: assetPath("/assets/images/coin-(9).png"),
   };
 
   const products = [

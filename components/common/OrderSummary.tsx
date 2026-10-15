@@ -1,5 +1,6 @@
 ﻿/* eslint-disable @next/next/no-img-element */
 "use client";
+import { assetPath } from "@/lib/asset-path";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 import { Badge } from "../ui/badge";
@@ -17,7 +18,7 @@ export const OrderSummary = ({
         {/* Header */}
         <div className="flex items-center gap-3">
           <img
-            src="/danube-website/assets/icons/summary.png"
+            src={assetPath("/assets/icons/summary.png")}
             alt="Summary"
             className="h-7 w-7 object-contain sm:h-8 sm:w-8"
           />
@@ -40,7 +41,7 @@ export const OrderSummary = ({
 
               <span className="flex items-center gap-1 text-[15px] font-medium text-primary sm:text-[16px]">
                 <img
-                  src="/danube-website/assets/icons/sar.png"
+                  src={assetPath("/assets/icons/sar.png")}
                   alt="sar"
                   className="h-4 w-4 object-contain"
                 />
@@ -56,7 +57,7 @@ export const OrderSummary = ({
 
               <span className="flex items-center gap-1 text-[15px] font-medium text-primary sm:text-[16px]">
                 <img
-                  src="/danube-website/assets/icons/sar.png"
+                  src={assetPath("/assets/icons/sar.png")}
                   alt="sar"
                   className="h-4 w-4 object-contain"
                 />
@@ -72,7 +73,7 @@ export const OrderSummary = ({
 
               <span className="flex items-center gap-1 text-[15px] font-medium text-primary sm:text-[16px]">
                 <img
-                  src="/danube-website/assets/icons/sar.png"
+                  src={assetPath("/assets/icons/sar.png")}
                   alt="sar"
                   className="h-4 w-4 object-contain"
                 />
@@ -88,7 +89,7 @@ export const OrderSummary = ({
 
               <span className="flex items-center gap-1 text-[15px] font-medium text-primary sm:text-[16px]">
                 <img
-                  src="/danube-website/assets/icons/sar.png"
+                  src={assetPath("/assets/icons/sar.png")}
                   alt="sar"
                   className="h-4 w-4 object-contain"
                 />
@@ -104,7 +105,7 @@ export const OrderSummary = ({
 
               <Badge className="flex h-9 w-20 items-center justify-center gap-1 rounded-[18px] bg-[#050505] text-[13px] font-semibold text-[#90e874] sm:text-sm">
                 <img
-                  src="/danube-website/assets/icons/discount-shape-(3).png"
+                  src={assetPath("/assets/icons/discount-shape-(3).png")}
                   alt="sale"
                   className="h-4 w-4 object-contain sm:h-5 sm:w-5"
                 />
@@ -120,7 +121,7 @@ export const OrderSummary = ({
 
               <span className="flex items-center gap-1 text-[18px] font-bold text-primary sm:text-[20px]">
                 <img
-                  src="/danube-website/assets/icons/sar.png"
+                  src={assetPath("/assets/icons/sar.png")}
                   alt="sar"
                   className="h-6 w-6 object-contain"
                 />

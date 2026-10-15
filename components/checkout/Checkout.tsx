@@ -1,5 +1,6 @@
 ﻿/* eslint-disable @next/next/no-img-element */
 "use client";
+import { assetPath } from "@/lib/asset-path";
 import { useState } from "react";
 import { Header } from "../layout/Header";
 import { Footer } from "../layout/Footer";
@@ -26,19 +27,19 @@ export type CartItem = {
 };
 
 const cartItems: CartItem[] = [
-  { id: 1, title: "Danube Imported Banana 1kg", image: "/danube-website/assets/images/banana.png", price: "26.00", oldPrice: "30.00", qty: 1 },
-  { id: 2, title: "Danube Beef\n Slice Thin Steak", image: "/danube-website/assets/images/beef.png", price: "26.00", oldPrice: "30.00", qty: 1 },
-  { id: 3, title: "Danube Cucumber (Tray) 900g", image: "/danube-website/assets/images/cucumber.png", price: "26.00", oldPrice: "30.00", qty: 1 },
-  { id: 4, title: "Danube Tomato\n 1kg", image: "/danube-website/assets/images/tomato.png", price: "26.00", oldPrice: "30.00", qty: 1 },
-  { id: 5, title: "Danube Potatoes Baladi (Bag) 1.8kg", image: "/danube-website/assets/images/potatoes.png", price: "26.00", oldPrice: "30.00",qty: 1 },
+  { id: 1, title: "Danube Imported Banana 1kg", image: assetPath("/assets/images/banana.png"), price: "26.00", oldPrice: "30.00", qty: 1 },
+  { id: 2, title: "Danube Beef\n Slice Thin Steak", image: assetPath("/assets/images/beef.png"), price: "26.00", oldPrice: "30.00", qty: 1 },
+  { id: 3, title: "Danube Cucumber (Tray) 900g", image: assetPath("/assets/images/cucumber.png"), price: "26.00", oldPrice: "30.00", qty: 1 },
+  { id: 4, title: "Danube Tomato\n 1kg", image: assetPath("/assets/images/tomato.png"), price: "26.00", oldPrice: "30.00", qty: 1 },
+  { id: 5, title: "Danube Potatoes Baladi (Bag) 1.8kg", image: assetPath("/assets/images/potatoes.png"), price: "26.00", oldPrice: "30.00",qty: 1 },
 ];
 
 const lastMinuteItems: CartItem[] = [
-  { id: 6, title: "Afia Black Lemon\n Dried 200g", image: "/danube-website/assets/images/lemon.png", price: "26.00", oldPrice: "30.00", qty: 1 },
-  { id: 7, title: "Alyoum Cooky\n Chicken Flatt with...", image: "/danube-website/assets/images/chicken.png", price: "26.00", oldPrice: "30.00", qty: 1},
-  { id: 8, title: "Alpro Barista Coconut\n Milk 1L", image: "/danube-website/assets/images/milk.png", price: "26.00", oldPrice: "30.00", qty: 1 },
-  { id: 9, title: "Chocolate Swiss\n Roll Cake", image: "/danube-website/assets/images/cake.png", price: "26.00", oldPrice: "30.00", qty: 1,},
-  { id: 10, title: "Danube Bakery Popcorn Dukka Sour & Sweet 260g", image: "/danube-website/assets/images/popcorn.png", price: "26.00", oldPrice: "30.00", qty: 1 },
+  { id: 6, title: "Afia Black Lemon\n Dried 200g", image: assetPath("/assets/images/lemon.png"), price: "26.00", oldPrice: "30.00", qty: 1 },
+  { id: 7, title: "Alyoum Cooky\n Chicken Flatt with...", image: assetPath("/assets/images/chicken.png"), price: "26.00", oldPrice: "30.00", qty: 1},
+  { id: 8, title: "Alpro Barista Coconut\n Milk 1L", image: assetPath("/assets/images/milk.png"), price: "26.00", oldPrice: "30.00", qty: 1 },
+  { id: 9, title: "Chocolate Swiss\n Roll Cake", image: assetPath("/assets/images/cake.png"), price: "26.00", oldPrice: "30.00", qty: 1,},
+  { id: 10, title: "Danube Bakery Popcorn Dukka Sour & Sweet 260g", image: assetPath("/assets/images/popcorn.png"), price: "26.00", oldPrice: "30.00", qty: 1 },
 ];
 
 export const Checkout = () => {
@@ -86,7 +87,7 @@ export const Checkout = () => {
                 <div className="absolute -right-1 -top-1.75 flex h-7 w-7 items-center justify-center rounded-full bg-[#97E080] p-[1.5px]">
                   <div className="flex h-full w-full items-center justify-center rounded-full border-2 border-black">
                     <img
-                      src="/danube-website/assets/icons/Group-76926.png"
+                      src={assetPath("/assets/icons/Group-76926.png")}
                       alt="Free shipping"
                       className="h-[10.46px] w-[10.55px] object-cover"
                     />

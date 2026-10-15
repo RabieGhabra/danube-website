@@ -1,5 +1,6 @@
 ﻿/* eslint-disable @next/next/no-img-element */
 "use client";
+import { assetPath } from "@/lib/asset-path";
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
 import Container from "@/components/ui/container";
@@ -14,25 +15,25 @@ type CategoryItem = {
   offset?: string;
 };
 
-const backgroundImage = "/danube-website/assets/images/background-(2).png";
+const backgroundImage = assetPath("/assets/images/background-(2).png");
 
 const categoryItems: CategoryItem[] = [
-  { name: "Groceries", image: "/danube-website/assets/images/grocery.png", sale: true, width: "84px", height: "104px", offset: "mb-12" },
-  { name: "Snacks & Beverages", image: "/danube-website/assets/images/snacks-beverages.png", width: "84px", height: "104px", offset: "mb-10" },
-  { name: "Dairy Eggs", image: "/danube-website/assets/images/dairy.png", width: "92px", height: "104px", offset: "mb-10" },
-  { name: "Frozen Food", image: "/danube-website/assets/images/frozen-food.png", width: "78px", height: "104px", offset: "mb-10" },
-  { name: "Plant Based Products", image: "/danube-website/assets/images/plant-products.png", width: "84px", height: "104px", offset: "mb-12" },
-  { name: "Bundle Deals", image: "/danube-website/assets/images/deals.png", width: "144px", height: "110px" },
-  { name: "Fresh Chicken", image: "/danube-website/assets/images/chicken-(2).png", width: "84px", height: "104px", offset: "mb-12" },
-  { name: "Home Care", image: "/danube-website/assets/images/home-care.png", width: "140px", height: "111px", offset: "mb-8" },
-  { name: "Salads & Appetizers", image: "/danube-website/assets/images/appetizers.png", width: "88px", height: "102px", offset: "mb-12" },
-  { name: "Fresh Chicken", image: "/danube-website/assets/images/chicken-(2).png", width: "84px", height: "104px", offset: "mb-12" },
-  { name: "Bread", image: "/danube-website/assets/images/bread-(2).png", width: "46px", height: "111px", offset: "-mt-12" },
-  { name: "Home Care", image: "/danube-website/assets/images/home-care.png", width: "140px", height: "111px", offset: "mb-8" },
-  { name: "Cakes & Muffins", image: "/danube-website/assets/images/muffins.png", width: "118px", height: "72px", offset: "mt-4" },
-  { name: "Rusk", image: "/danube-website/assets/images/rusk.png", width: "114px", height: "76px", offset: "mt-4" },
-  { name: "Pastries", image: "/danube-website/assets/images/pastries.png", width: "106px", height: "84px", offset: "mt-4" },
-  { name: "Danube Cakes", image: "/danube-website/assets/images/cakes.png", width: "108px", height: "94px", offset: "mt-1" },
+  { name: "Groceries", image: assetPath("/assets/images/grocery.png"), sale: true, width: "84px", height: "104px", offset: "mb-12" },
+  { name: "Snacks & Beverages", image: assetPath("/assets/images/snacks-beverages.png"), width: "84px", height: "104px", offset: "mb-10" },
+  { name: "Dairy Eggs", image: assetPath("/assets/images/dairy.png"), width: "92px", height: "104px", offset: "mb-10" },
+  { name: "Frozen Food", image: assetPath("/assets/images/frozen-food.png"), width: "78px", height: "104px", offset: "mb-10" },
+  { name: "Plant Based Products", image: assetPath("/assets/images/plant-products.png"), width: "84px", height: "104px", offset: "mb-12" },
+  { name: "Bundle Deals", image: assetPath("/assets/images/deals.png"), width: "144px", height: "110px" },
+  { name: "Fresh Chicken", image: assetPath("/assets/images/chicken-(2).png"), width: "84px", height: "104px", offset: "mb-12" },
+  { name: "Home Care", image: assetPath("/assets/images/home-care.png"), width: "140px", height: "111px", offset: "mb-8" },
+  { name: "Salads & Appetizers", image: assetPath("/assets/images/appetizers.png"), width: "88px", height: "102px", offset: "mb-12" },
+  { name: "Fresh Chicken", image: assetPath("/assets/images/chicken-(2).png"), width: "84px", height: "104px", offset: "mb-12" },
+  { name: "Bread", image: assetPath("/assets/images/bread-(2).png"), width: "46px", height: "111px", offset: "-mt-12" },
+  { name: "Home Care", image: assetPath("/assets/images/home-care.png"), width: "140px", height: "111px", offset: "mb-8" },
+  { name: "Cakes & Muffins", image: assetPath("/assets/images/muffins.png"), width: "118px", height: "72px", offset: "mt-4" },
+  { name: "Rusk", image: assetPath("/assets/images/rusk.png"), width: "114px", height: "76px", offset: "mt-4" },
+  { name: "Pastries", image: assetPath("/assets/images/pastries.png"), width: "106px", height: "84px", offset: "mt-4" },
+  { name: "Danube Cakes", image: assetPath("/assets/images/cakes.png"), width: "108px", height: "94px", offset: "mt-1" },
 ];
 
 const categoryLabel = (name: string) => {
@@ -53,7 +54,7 @@ export const Categories = () => {
         <h2 id="categories" className="text-[32px] font-semibold leading-normal text-primary">Category</h2>
         <Button type="button" variant="ghost" className="h-auto gap-3 p-0 font-semibold text-black">
           See all
-          <Image src="/danube-website/assets/icons/see-all.png" alt="" width={42} height={42} className="cursor-pointer" />
+          <Image src={assetPath("/assets/icons/see-all.png")} alt="" width={42} height={42} className="cursor-pointer" />
         </Button>
       </div>
 
@@ -69,7 +70,7 @@ export const Categories = () => {
 
               {category.sale && (
                 <Badge className="absolute -bottom-3.75 left-1/2 flex h-7.5 w-22.25 -translate-x-1/2 items-center justify-center gap-1 rounded-[22.5px] bg-[#050505] text-base font-semibold text-[#90e874]">
-                  <img src="/danube-website/assets/icons/discount-shape-(2).png" alt="sale" className="h-4 w-4 object-contain" />
+                  <img src={assetPath("/assets/icons/discount-shape-(2).png")} alt="sale" className="h-4 w-4 object-contain" />
                   SALE
                 </Badge>
               )}

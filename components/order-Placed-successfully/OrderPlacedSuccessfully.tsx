@@ -1,5 +1,6 @@
 ﻿/* eslint-disable @next/next/no-img-element */
 "use client";
+import { assetPath } from "@/lib/asset-path";
 import { Address } from "../common/Address";
 import { OrderSummary } from "../common/OrderSummary";
 import { PaymentMethod } from "../common/PaymentMethod";
@@ -23,11 +24,11 @@ export type CartItem = {
 };
 
 const cartItems: CartItem[] = [
-  { id: 1, title: "Danube Imported\n Banana 1kg", image: "/danube-website/assets/images/banana.png", price: "26.00", oldPrice: "30.00", qty: 1 },
-  { id: 2, title: "Danube Beef\n Slice Thin Steak", image: "/danube-website/assets/images/beef.png", price: "26.00", oldPrice: "30.00", qty: 1 },
-  { id: 3, title: "Danube Cucumber\n (Tray) 900g", image: "/danube-website/assets/images/cucumber.png", price: "26.00", oldPrice: "30.00",qty: 1 },
-  { id: 4, title: "Danube Tomato\n 1kg", image: "/danube-website/assets/images/tomato.png", price: "26.00", oldPrice: "30.00", qty: 1 },
-  { id: 5, title: "Danube Potatoes\n Baladi (Bag) 1.8kg", image: "/danube-website/assets/images/potatoes.png", price: "26.00", oldPrice: "30.00", qty: 1 },
+  { id: 1, title: "Danube Imported\n Banana 1kg", image: assetPath("/assets/images/banana.png"), price: "26.00", oldPrice: "30.00", qty: 1 },
+  { id: 2, title: "Danube Beef\n Slice Thin Steak", image: assetPath("/assets/images/beef.png"), price: "26.00", oldPrice: "30.00", qty: 1 },
+  { id: 3, title: "Danube Cucumber\n (Tray) 900g", image: assetPath("/assets/images/cucumber.png"), price: "26.00", oldPrice: "30.00",qty: 1 },
+  { id: 4, title: "Danube Tomato\n 1kg", image: assetPath("/assets/images/tomato.png"), price: "26.00", oldPrice: "30.00", qty: 1 },
+  { id: 5, title: "Danube Potatoes\n Baladi (Bag) 1.8kg", image: assetPath("/assets/images/potatoes.png"), price: "26.00", oldPrice: "30.00", qty: 1 },
 ];
 
 export const OrderPlacedSuccessfully = () => {
@@ -49,7 +50,7 @@ export const OrderPlacedSuccessfully = () => {
 
           <div className="z-10 ml-3 flex shrink-0 min-[340px]:ml-4 max-[280px]:-mt-2 max-[280px]:ml-0 max-[280px]:w-full max-[280px]:justify-start">
             <img
-              src="/danube-website/assets/images/order-success.png"
+              src={assetPath("/assets/images/order-success.png")}
               alt="Order Success"
               className="h-auto w-14 object-contain sm:w-16 md:w-20 lg:w-28 xl:w-32"
             />

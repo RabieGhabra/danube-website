@@ -1,4 +1,5 @@
 ﻿"use client";
+import { assetPath } from "@/lib/asset-path";
 /* eslint-disable @next/next/no-img-element */
 import { useState } from "react";
 import { Badge } from "@/components/ui/badge";
@@ -6,7 +7,7 @@ import { Card, CardContent } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import Container from "@/components/ui/container";
 
-const assetBase = "/danube-website/assets/images/";
+const assetBase = assetPath("/assets/images/");
 
 const brands = [
   {

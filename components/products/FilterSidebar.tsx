@@ -1,4 +1,6 @@
-﻿"use client"; /* eslint-disable @next/next/no-img-element */
+﻿"use client";
+import { assetPath } from "@/lib/asset-path";
+/* eslint-disable @next/next/no-img-element */
 import { useState } from "react";
 import { Button } from "../ui/button";
 import { Input } from "../ui/input";
@@ -76,7 +78,7 @@ export const FilterSidebar = () => {
           <h3 className="mb-3 text-[15px] font-bold text-gray-900">Brand</h3>
           <div className="relative mb-4">
             <img
-              src="/danube-website/assets/icons/search.png"
+              src={assetPath("/assets/icons/search.png")}
               alt="Search"
               className="absolute left-3 top-1/2 z-10 h-4 w-4 -translate-y-1/2 object-contain"
             />
@@ -124,7 +126,7 @@ export const FilterSidebar = () => {
           <div className="mb-3 flex items-center justify-between text-sm font-medium text-gray-900">
             <span className="flex items-center gap-1">
               <img
-                src="/danube-website/assets/icons/sar.png"
+                src={assetPath("/assets/icons/sar.png")}
                 alt="sar"
                 className="h-4 w-4 object-contain"
               />
@@ -132,7 +134,7 @@ export const FilterSidebar = () => {
             </span>
             <span className="flex items-center gap-1">
               <img
-                src="/danube-website/assets/icons/sar.png"
+                src={assetPath("/assets/icons/sar.png")}
                 alt="sar"
                 className="h-4 w-4 object-contain"
               />

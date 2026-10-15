@@ -1,4 +1,5 @@
-﻿/* eslint-disable @next/next/no-img-element */
+﻿import { assetPath } from "@/lib/asset-path";
+/* eslint-disable @next/next/no-img-element */
 import React from "react";
 
 const TimeSlot = () => {
@@ -7,7 +8,7 @@ const TimeSlot = () => {
       {/* Header */}
       <div className="mb-4 flex items-center gap-2 sm:mb-5">
         <img
-          src="/danube-website/assets/icons/time-slot.png"
+          src={assetPath("/assets/icons/time-slot.png")}
           alt="Info"
           className="h-5 w-5 object-contain sm:h-6 sm:w-6"
         />

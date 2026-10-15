@@ -1,5 +1,6 @@
 ﻿/* eslint-disable @next/next/no-img-element */
 "use client";
+import { assetPath } from "@/lib/asset-path";
 import { Card, CardContent } from "@/components/ui/card";
 import { ProductCard } from "../../products/ProductCard";
 import type { CartItem } from "../Checkout";
@@ -18,7 +19,7 @@ export const CartItems = ({ items, updateQty }: Props) => {
         <div className="mb-5 flex w-full flex-col sm:flex-row sm:items-center sm:justify-between">
           <div className="flex items-center gap-3">
             <img
-              src="/danube-website/assets/icons/shopping-cart-(1).png"
+              src={assetPath("/assets/icons/shopping-cart-(1).png")}
               alt="Cart"
               className="object-contain"
             />

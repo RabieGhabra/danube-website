@@ -1,17 +1,18 @@
-﻿/* eslint-disable @next/next/no-img-element */
+﻿import { assetPath } from "@/lib/asset-path";
+/* eslint-disable @next/next/no-img-element */
 import { Button } from "@/components/ui/button";
 import Container from "@/components/ui/container";
 import Image from "next/image";
 
 const bundleItems = [
-  "/danube-website/assets/images/grocery.png",
-  "/danube-website/assets/images/snacks-beverages.png",
-  "/danube-website/assets/images/dairy.png",
-  "/danube-website/assets/images/frozen-food.png",
-  "/danube-website/assets/images/pet-care.png",
+  assetPath("/assets/images/grocery.png"),
+  assetPath("/assets/images/snacks-beverages.png"),
+  assetPath("/assets/images/dairy.png"),
+  assetPath("/assets/images/frozen-food.png"),
+  assetPath("/assets/images/pet-care.png"),
 ];
 
-const backgroundImage = "/danube-website/assets/images/background-(2).png";
+const backgroundImage = assetPath("/assets/images/background-(2).png");
 
 const sizes = [
   { w: "w-[185px]", h: "h-[196px]" },
@@ -42,7 +43,7 @@ export const Bundles = () => {
         >
           See all
           <Image
-            src="/danube-website/assets/icons/see-all.png"
+            src={assetPath("/assets/icons/see-all.png")}
             alt=""
             width={42}
             height={42}

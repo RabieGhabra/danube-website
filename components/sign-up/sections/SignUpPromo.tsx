@@ -1,4 +1,5 @@
-﻿import Image from "next/image";
+﻿import { assetPath } from "@/lib/asset-path";
+import Image from "next/image";
 
 const SignUpPromo = () => {
   return (
@@ -12,7 +13,7 @@ const SignUpPromo = () => {
       {/* Top Left Tomato */}
       <div className="absolute left-1 -top-6 z-10 h-24 w-24 sm:h-32 sm:w-32 md:-top-17 md:h-48 md:w-48 lg:h-60 lg:w-60 xl:h-72 xl:w-72">
         <Image
-          src="/danube-website/assets/images/tomato-left.png"
+          src={assetPath("/assets/images/tomato-left.png")}
           alt="Tomato top left"
           fill
           className="object-contain"
@@ -23,7 +24,7 @@ const SignUpPromo = () => {
       {/* Top Right Tomato */}
       <div className="absolute -right-6 top-8 z-10 h-24 w-24 sm:h-32 sm:w-32 md:-right-10 md:h-40 md:w-40 lg:h-52 lg:w-52 xl:h-60 xl:w-60">
         <Image
-          src="/danube-website/assets/images/tomato-right.png"
+          src={assetPath("/assets/images/tomato-right.png")}
           alt="Tomato top right"
           fill
           className="object-contain"
@@ -36,7 +37,7 @@ const SignUpPromo = () => {
         {/* Danube Logo */}
         <div className="flex w-24 shrink-0 flex-col items-center sm:w-28 md:w-32">
           <Image
-            src="/danube-website/assets/images/arabic-logo-(2).png"
+            src={assetPath("/assets/images/arabic-logo-(2).png")}
             alt="Arabic Logo"
             width={110}
             height={42}
@@ -44,7 +45,7 @@ const SignUpPromo = () => {
             sizes="(max-width: 640px) 80px, (max-width: 768px) 96px, 112px"
           />
           <Image
-            src="/danube-website/assets/images/logo-(3).png"
+            src={assetPath("/assets/images/logo-(3).png")}
             alt="Danube"
             width={166}
             height={48}
@@ -72,7 +73,7 @@ const SignUpPromo = () => {
         {/* 1. Mixer (Sencor) - far left */}
         <div className="absolute bottom-[-36%] left-[11%] z-20 h-[85%] w-[23%] sm:h-[90%] sm:w-[21%] md:h-[98%] md:w-[19%]">
           <Image
-            src="/danube-website/assets/images/mixer.png"
+            src={assetPath("/assets/images/mixer.png")}
             alt="Sencor Mixer"
             fill
             className="object-contain object-bottom"
@@ -83,7 +84,7 @@ const SignUpPromo = () => {
         {/* 2. Kettle (Philips) - next to mixer */}
         <div className="absolute bottom-[-35%] left-[20%] z-20 h-[70%] w-[24%] sm:h-[75%] sm:w-[22%] md:h-[82%] md:w-[20%]">
           <Image
-            src="/danube-website/assets/images/kettle.png"
+            src={assetPath("/assets/images/kettle.png")}
             alt="Philips Kettle"
             fill
             className="object-contain object-bottom"
@@ -94,7 +95,7 @@ const SignUpPromo = () => {
         {/* 3. Iron (Kenwood) - in front of kettle */}
         <div className="absolute bottom-[-36%] left-[23%] z-30 h-[55%] w-[24%] sm:h-[60%] sm:w-[22%] md:h-[68%] md:w-[20%]">
           <Image
-            src="/danube-website/assets/images/iron.png"
+            src={assetPath("/assets/images/iron.png")}
             alt="Kenwood Iron"
             fill
             className="object-contain object-bottom"
@@ -105,7 +106,7 @@ const SignUpPromo = () => {
         {/* 4. Bag (center, large) */}
         <div className="absolute bottom-[-28%] left-[36%] z-10 h-[115%] w-[38%] sm:h-[120%] sm:w-[36%] md:h-[130%] md:w-[33%]">
           <Image
-            src="/danube-website/assets/images/bag.png"
+            src={assetPath("/assets/images/bag.png")}
             alt="Danube Bag"
             fill
             className="object-contain object-bottom"
@@ -116,7 +117,7 @@ const SignUpPromo = () => {
         {/* 5. Pringles / black pack (behind Tang) */}
         <div className="absolute bottom-[-37%] left-[64%] z-10 h-[62%] w-[10%] sm:h-[67%] sm:w-[9%] md:h-[74%] md:w-[8%]">
           <Image
-            src="/danube-website/assets/images/pringles.png"
+            src={assetPath("/assets/images/pringles.png")}
             alt="Pringles"
             fill
             className="object-contain object-bottom"
@@ -127,7 +128,7 @@ const SignUpPromo = () => {
         {/* 6. Tang (orange pouch) */}
         <div className="absolute bottom-[-40%] left-[62%] z-20 h-[78%] w-[17%] sm:h-[84%] sm:w-[16%] md:h-[94%] md:w-[14%]">
           <Image
-            src="/danube-website/assets/images/tang.png"
+            src={assetPath("/assets/images/tang.png")}
             alt="Tang Orange"
             fill
             className="object-contain object-bottom"
@@ -138,7 +139,7 @@ const SignUpPromo = () => {
         {/* 7. Mars miniatures */}
         <div className="absolute bottom-[-46%] left-[68%] z-20 h-[92%] w-[23%] sm:h-[98%] sm:w-[22%] md:h-[106%] md:w-[20%]">
           <Image
-            src="/danube-website/assets/images/mars.png"
+            src={assetPath("/assets/images/mars.png")}
             alt="Mars Miniatures"
             fill
             className="object-contain object-bottom"
@@ -149,7 +150,7 @@ const SignUpPromo = () => {
         {/* 8. Almarai can - far right */}
         <div className="absolute bottom-[-42%] left-[79%] z-20 h-[55%] w-[13%] sm:h-[60%] sm:w-[12%] md:h-[68%] md:w-[11%]">
           <Image
-            src="/danube-website/assets/images/almarai.png"
+            src={assetPath("/assets/images/almarai.png")}
             alt="Almarai"
             fill
             className="object-contain object-bottom"
@@ -161,7 +162,7 @@ const SignUpPromo = () => {
       {/* Wooden Table */}
       <div className="relative h-40 w-full sm:h-48 md:h-56 lg:h-64">
         <Image
-          src="/danube-website/assets/images/wood-texture.png"
+          src={assetPath("/assets/images/wood-texture.png")}
           alt="Wood Texture Surface"
           fill
           className="object-cover"

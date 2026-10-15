@@ -1,4 +1,5 @@
 ﻿"use client";
+import { assetPath } from "@/lib/asset-path";
 import { Header } from "../layout/Header";
 import { Footer } from "../layout/Footer";
 import SidebarMenu from "../dashboard/SidebarMenu";
@@ -8,7 +9,7 @@ import { ProductCard } from "../products/ProductCard";
 const wishlistItems = [
   {
     title: "Dream Whip Whipped Topping...",
-    image: "/danube-website/assets/images/dream-whip.png",
+    image: assetPath("/assets/images/dream-whip.png"),
     price: "50.00",
     rating: "4.5",
     reviews: "(5K)",
@@ -16,7 +17,7 @@ const wishlistItems = [
   },
   {
     title: "Danube Rocket Leaves 1pc",
-    image: "/danube-website/assets/images/mint.png",
+    image: assetPath("/assets/images/mint.png"),
     price: "50.00",
     rating: "4.5",
     reviews: "(5K)",
@@ -24,7 +25,7 @@ const wishlistItems = [
   },
   {
     title: "Al-Watania Poultry Medium-Large...",
-    image: "/danube-website/assets/images/eggs.png",
+    image: assetPath("/assets/images/eggs.png"),
     price: "50.00",
     rating: "4.5",
     reviews: "(5K)",
@@ -32,7 +33,7 @@ const wishlistItems = [
   },
   {
     title: "Lays Chips\n Ketchup Flavour",
-    image: "/danube-website/assets/images/chips.png",
+    image: assetPath("/assets/images/chips.png"),
     price: "50.00",
     rating: "4.5",
     reviews: "(5K)",
@@ -40,7 +41,7 @@ const wishlistItems = [
   },
   {
     title: "Danube Bakery White Bread Mini",
-    image: "/danube-website/assets/images/bread-(4).png",
+    image: assetPath("/assets/images/bread-(4).png"),
     price: "50.00",
     rating: "4.8",
     reviews: "(5K)",
@@ -48,7 +49,7 @@ const wishlistItems = [
   },
   {
     title: "Kinza Cola Carbonated Drink",
-    image: "/danube-website/assets/images/kinza.png",
+    image: assetPath("/assets/images/kinza.png"),
     price: "50.00",
     rating: "4.8",
     reviews: "(5K)",

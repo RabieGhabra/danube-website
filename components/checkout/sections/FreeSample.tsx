@@ -1,12 +1,13 @@
 ﻿/* eslint-disable @next/next/no-img-element */
 "use client";
+import { assetPath } from "@/lib/asset-path";
 
 export const FreeSample = () => {
   return (
     <div className="flex min-h-23.5 w-full items-center justify-between gap-3 rounded-[19px] bg-[#FAFFCF] px-3 py-4 sm:px-4 md:px-5">
       <div className="flex min-w-0 items-center gap-2 sm:gap-3">
         <img
-          src="/danube-website/assets/icons/gift.png"
+          src={assetPath("/assets/icons/gift.png")}
           alt="Free Sample"
           className="h-auto w-auto shrink-0 object-contain"
         />
@@ -23,7 +24,7 @@ export const FreeSample = () => {
       </div>
 
       <img
-        src="/danube-website/assets/icons/arrow-right.png"
+        src={assetPath("/assets/icons/arrow-right.png")}
         alt="Arrow right"
         className="h-auto w-auto shrink-0 object-contain"
       />

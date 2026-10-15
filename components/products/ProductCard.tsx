@@ -1,5 +1,6 @@
 ﻿/* eslint-disable @next/next/no-img-element */
 "use client";
+import { assetPath } from "@/lib/asset-path";
 import { Button } from "@/components/ui/button";
 import { Badge } from "../ui/badge";
 import { Card, CardContent } from "@/components/ui/card";
@@ -62,7 +63,7 @@ export const ProductCard = ({
             className="absolute right-1 top-2.5 z-10 cursor-pointer border-0 bg-transparent p-0 shadow-none hover:bg-transparent"
             aria-label="Remove from wishlist"
           >
-            <img src="/danube-website/assets/icons/heart-circle-(2).png" alt="Remove" className="h-10 w-10 object-contain" />
+            <img src={assetPath("/assets/icons/heart-circle-(2).png")} alt="Remove" className="h-10 w-10 object-contain" />
           </Button>
 
           <img
@@ -83,14 +84,14 @@ export const ProductCard = ({
         </h3>
 
         <div className="mx-2 flex items-center gap-0.5 px-1">
-          <img src="/danube-website/assets/icons/Group-76720.png" alt="" className="h-2.75 w-2.75 object-contain" />
+          <img src={assetPath("/assets/icons/Group-76720.png")} alt="" className="h-2.75 w-2.75 object-contain" />
           <span className="text-[11px] font-medium text-primary">{rating}</span>
           <span className="text-[11px] text-[#84899D]">{reviews}</span>
         </div>
 
         <div className="mx-auto mb-1.5 mt-auto flex items-center justify-between bg-white pl-4 pr-1" style={{ width: "165px", height: "44px", borderRadius: "68px" }}>
           <div className="flex items-center gap-1">
-            <img src="/danube-website/assets/icons/sar.png" alt="sar" className="h-3.5 w-3.5 object-contain" />
+            <img src={assetPath("/assets/icons/sar.png")} alt="sar" className="h-3.5 w-3.5 object-contain" />
             <span className="text-[13px] font-bold text-primary">{price}</span>
           </div>
 
@@ -107,9 +108,9 @@ export const ProductCard = ({
             aria-label={icon === "bell" ? "Notify me" : "Add to cart"}
           >
             {icon === "bell" ? (
-              <img src="/danube-website/assets/icons/notification.png" alt="Notify me" className="h-5 w-5 object-contain" />
+              <img src={assetPath("/assets/icons/notification.png")} alt="Notify me" className="h-5 w-5 object-contain" />
             ) : (
-              <img src="/danube-website/assets/icons/shopping-cart.png" alt="Add to cart" className="h-5 w-5 object-contain" />
+              <img src={assetPath("/assets/icons/shopping-cart.png")} alt="Add to cart" className="h-5 w-5 object-contain" />
             )}
           </Button>
         </div>
@@ -131,7 +132,7 @@ export const ProductCard = ({
               aria-label={`Remove ${title}`}
               className="absolute right-2 top-2 flex h-10.5 w-10.5 cursor-pointer items-center justify-center rounded-[68px] bg-[#F2F3F7] p-0"
             >
-              <img src="/danube-website/assets/icons/delete.png" alt="Delete" className="object-contain" />
+              <img src={assetPath("/assets/icons/delete.png")} alt="Delete" className="object-contain" />
             </Button>
           )}
         </div>
@@ -140,7 +141,7 @@ export const ProductCard = ({
 
         <div className="mt-3 flex flex-col items-start">
           <div className="flex items-center gap-2">
-            <img src="/danube-website/assets/icons/sar.png" alt="sar" className="h-5 w-5 object-contain" />
+            <img src={assetPath("/assets/icons/sar.png")} alt="sar" className="h-5 w-5 object-contain" />
             <span className="text-xl font-bold leading-none text-primary">{price}</span>
           </div>
 
@@ -162,7 +163,7 @@ export const ProductCard = ({
               onClick={onDecrease}
               className="flex h-10.5 w-10.5 shrink-0 cursor-pointer items-center justify-center rounded-[48px] bg-[#F2F3F7] p-0"
             >
-              <img src="/danube-website/assets/icons/minus.png" alt="Decrease" className="h-4 w-4 object-contain" />
+              <img src={assetPath("/assets/icons/minus.png")} alt="Decrease" className="h-4 w-4 object-contain" />
             </Button>
 
             <span className="text-base font-semibold text-primary">{qty}</span>
@@ -174,7 +175,7 @@ export const ProductCard = ({
               onClick={onIncrease}
               className="flex h-10.5 w-10.5 shrink-0 cursor-pointer items-center justify-center rounded-[48px] bg-[#121212] p-0"
             >
-              <img src="/danube-website/assets/icons/plus.png" alt="Increase" className="h-4 w-4 object-contain" />
+              <img src={assetPath("/assets/icons/plus.png")} alt="Increase" className="h-4 w-4 object-contain" />
             </Button>
           </div>
         )}
@@ -188,7 +189,7 @@ export const ProductCard = ({
       <Card className="relative h-120 overflow-visible rounded-[40px] border-0 bg-[#f2f3f7] shadow-none">
         <CardContent className="flex h-full flex-col p-0">
           <Badge className="absolute left-1/2 -top-4.25 z-20 flex h-11.25 w-31.75 -translate-x-1/2 items-center justify-center rounded-[48px] border border-black bg-[radial-gradient(45.83%_45.83%_at_50%_50%,#BAFFA4_0%,#8EF86C_100%)]">
-            <img src="/danube-website/assets/icons/discount-shape.png" alt="" className="mr-2 h-6 w-6" />
+            <img src={assetPath("/assets/icons/discount-shape.png")} alt="" className="mr-2 h-6 w-6" />
             <span className="mr-3 text-[22px] font-semibold">SALE</span>
           </Badge>
 
@@ -200,7 +201,7 @@ export const ProductCard = ({
 
           <div className="mx-auto mt-5 flex w-[89%] items-center justify-between">
             <div className="flex items-center">
-              <img src="/danube-website/assets/icons/sar.png" alt="sar" className="h-6.25 w-6.25 object-contain" />
+              <img src={assetPath("/assets/icons/sar.png")} alt="sar" className="h-6.25 w-6.25 object-contain" />
 
               <div className="ml-3.25 flex flex-col">
                 <span className="text-base font-bold text-primary">{price}</span>
@@ -209,7 +210,7 @@ export const ProductCard = ({
             </div>
 
             <div className="flex items-center">
-              <img src="/danube-website/assets/icons/Group-76720.png" alt="Rating" className="mr-2 h-4 w-4.25 object-contain" />
+              <img src={assetPath("/assets/icons/Group-76720.png")} alt="Rating" className="mr-2 h-4 w-4.25 object-contain" />
 
               <p className="text-lg font-medium">
                 <span className="text-primary">4.5</span>
@@ -228,7 +229,7 @@ export const ProductCard = ({
               style={{ background: "radial-gradient(63.89% 63.89% at 50% 50%, #BAFFA4 0%, #8EF86C 100%)" }}
             >
               <Button type="button" variant="ghost" aria-label={`Add ${title} to cart`} className="h-auto bg-transparent p-0 shadow-none">
-                <img src="/danube-website/assets/icons/shopping-cart.png" alt="" aria-hidden="true" className="h-7 w-7 object-contain" />
+                <img src={assetPath("/assets/icons/shopping-cart.png")} alt="" aria-hidden="true" className="h-7 w-7 object-contain" />
               </Button>
             </div>
           </div>

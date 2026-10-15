@@ -1,4 +1,5 @@
 ﻿"use client";
+import { assetPath } from "@/lib/asset-path";
 import { Header } from "../layout/Header";
 import { Footer } from "../layout/Footer";
 import { ProductCard } from "@/components/products/ProductCard";
@@ -9,11 +10,11 @@ import ProductInfo from "../products/ProductInfo";
 import ProductAccordion from "../products/ProductAccordion";
 
 const products = [
-  { title: "Danube Imported\nBanana 1 kg", image: "/danube-website/assets/images/banana.png", oldPrice: "20.00" },
-  { title: "Danube Cucumber\n(Tray) 900g", image: "/danube-website/assets/images/cucumber.png", oldPrice: "20.00" },
-  { title: "Danube Tomato\n1kg", image: "/danube-website/assets/images/tomato.png", oldPrice: "20.00" },
-  { title: "Danube Imported\nBanana 1 kg", image: "/danube-website/assets/images/bread.png", oldPrice: "20.00" },
-  { title: "Danube Imported\nBanana 1 kg", image: "/danube-website/assets/images/parsley.png", oldPrice: "20.00" },
+  { title: "Danube Imported\nBanana 1 kg", image: assetPath("/assets/images/banana.png"), oldPrice: "20.00" },
+  { title: "Danube Cucumber\n(Tray) 900g", image: assetPath("/assets/images/cucumber.png"), oldPrice: "20.00" },
+  { title: "Danube Tomato\n1kg", image: assetPath("/assets/images/tomato.png"), oldPrice: "20.00" },
+  { title: "Danube Imported\nBanana 1 kg", image: assetPath("/assets/images/bread.png"), oldPrice: "20.00" },
+  { title: "Danube Imported\nBanana 1 kg", image: assetPath("/assets/images/parsley.png"), oldPrice: "20.00" },
 ];
 
 export const ProductDetail = () => {
@@ -30,13 +31,13 @@ export const ProductDetail = () => {
           <div className="w-full min-[1420px]:w-auto min-[1420px]:shrink-0">
             <ProductGallery
               thumbnails={[
-                "/danube-website/assets/images/coffee-jar-small.png",
-                "/danube-website/assets/images/coffee-jar-small.png",
-                "/danube-website/assets/images/coffee-jar-small.png",
-                "/danube-website/assets/images/coffee-jar-small.png",
-                "/danube-website/assets/images/coffee-jar-small.png",
+                assetPath("/assets/images/coffee-jar-small.png"),
+                assetPath("/assets/images/coffee-jar-small.png"),
+                assetPath("/assets/images/coffee-jar-small.png"),
+                assetPath("/assets/images/coffee-jar-small.png"),
+                assetPath("/assets/images/coffee-jar-small.png"),
               ]}
-              mainImage="/danube-website/assets/images/coffee-jar-big.png"
+              mainImage={assetPath("/assets/images/coffee-jar-big.png")}
             />
           </div>
 

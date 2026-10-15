@@ -1,11 +1,12 @@
 ﻿"use client";
+import { assetPath } from "@/lib/asset-path";
 /* eslint-disable @next/next/no-img-element */
 import { Card, CardContent } from "@/components/ui/card";
 import Container from "@/components/ui/container";
 
 const appStoreBadges = [
-  { alt: "Google Play", src: "/danube-website/assets/images/toppng-2.png" },
-  { alt: "App Store", src: "/danube-website/assets/images/pngitem-1144050-3.png" },
+  { alt: "Google Play", src: assetPath("/assets/images/toppng-2.png") },
+  { alt: "App Store", src: assetPath("/assets/images/pngitem-1144050-3.png") },
 ];
 
 export const MobileAppPromotion = () => {
@@ -31,12 +32,12 @@ export const MobileAppPromotion = () => {
             <Card className="relative h-36 w-36 rounded-2xl border-0 bg-white p-0 shadow-none sm:h-44 sm:w-44">
               <CardContent className="relative h-full p-0">
                 <img
-                  src="/danube-website/assets/images/qr-code.png"
+                  src={assetPath("/assets/images/qr-code.png")}
                   alt="QR code"
                   className="absolute left-2 top-2 h-[calc(100%-16px)] w-[calc(100%-16px)] rounded-[10px] object-cover"
                 />
                 <img
-                  src="/danube-website/assets/images/danube-logo.png"
+                  src={assetPath("/assets/images/danube-logo.png")}
                   alt="Danube logo"
                   className="absolute left-1/2 top-1/2 z-10 h-10 w-10 -translate-x-1/2 -translate-y-1/2 sm:h-12 sm:w-12"
                 />
@@ -76,12 +77,12 @@ export const MobileAppPromotion = () => {
             {/* FLOATING IMAGES */}
             <div className="relative mt-10 flex flex-col items-center justify-center">
               <img
-                src="/danube-website/assets/images/mask-group-11.png"
+                src={assetPath("/assets/images/mask-group-11.png")}
                 alt=""
                 className="relative right-16 z-10 -mb-21 w-60 object-contain max-[580px]:-mb-15 max-[580px]:w-40"
               />
               <img
-                src="/danube-website/assets/images/1--home-android-mockup.png"
+                src={assetPath("/assets/images/1--home-android-mockup.png")}
                 alt="Android mobile app"
                 className="relative z-0 -mt-45 w-52 translate-x-20 object-contain max-[580px]:-mt-31 max-[580px]:w-36 max-[580px]:translate-x-10"
               />
@@ -94,12 +95,12 @@ export const MobileAppPromotion = () => {
             <Card className="absolute left-0 top-34 h-62.5 w-62.5 rounded-[20px] border-0 bg-white p-0 shadow-none">
               <CardContent className="relative h-full p-0">
                 <img
-                  src="/danube-website/assets/images/qr-code.png"
+                  src={assetPath("/assets/images/qr-code.png")}
                   alt="QR code"
                   className="absolute left-3 top-3 h-56.5 w-56.5 rounded-[10px] object-cover"
                 />
                 <img
-                  src="/danube-website/assets/images/danube-logo.png"
+                  src={assetPath("/assets/images/danube-logo.png")}
                   alt="Danube logo"
                   className="absolute left-1/2 top-1/2 z-10 h-17 w-17 -translate-x-1/2 -translate-y-1/2"
                 />
@@ -138,12 +139,12 @@ export const MobileAppPromotion = () => {
 
             {/* DECORATIVE */}
             <img
-              src="/danube-website/assets/images/mask-group-11.png"
+              src={assetPath("/assets/images/mask-group-11.png")}
               alt=""
               className="absolute right-42 top-0 z-10 h-120 w-73.75 object-contain"
             />
             <img
-              src="/danube-website/assets/images/1--home-android-mockup.png"
+              src={assetPath("/assets/images/1--home-android-mockup.png")}
               alt="Android mobile app"
               className="absolute right-0 top-35.5 z-0 h-84.5 w-66.75"
             />

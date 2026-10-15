@@ -1,5 +1,6 @@
 ﻿/* eslint-disable @next/next/no-img-element */
 "use client";
+import { assetPath } from "@/lib/asset-path";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 
@@ -7,15 +8,15 @@ const SidebarMenu = () => {
   const currentPath = usePathname();
 
   const menuItems = [
-    { name: "Edit Profile", path: "/dashboard-edit-profile", icon: "/danube-website/assets/icons/operator-(2).png", active: true },
-    { name: "My Orders", path: "/dashboard-my-orders", icon: "/danube-website/assets/icons/my-orders.png", active: true },
-    { name: "My Wishlist", path: "/dashboard-my-wishlist", icon: "/danube-website/assets/icons/love.png", active: true },
-    { name: "Loyalty Account", icon: "/danube-website/assets/icons/gift-(2).png", active: false },
-    { name: "Loyalty Reward", icon: "/danube-website/assets/icons/loyalty-reward.png", active: false },
-    { name: "Address Book", icon: "/danube-website/assets/icons/location-pin.png", active: false },
-    { name: "Cards", icon: "/danube-website/assets/icons/payment.png", active: false },
-    { name: "Contact Preferences", icon: "/danube-website/assets/icons/operator-(2).png", active: false },
-    { name: "Logout", icon: "/danube-website/assets/icons/logout.png", active: false, isDanger: true },
+    { name: "Edit Profile", path: "/dashboard-edit-profile", icon: assetPath("/assets/icons/operator-(2).png"), active: true },
+    { name: "My Orders", path: "/dashboard-my-orders", icon: assetPath("/assets/icons/my-orders.png"), active: true },
+    { name: "My Wishlist", path: "/dashboard-my-wishlist", icon: assetPath("/assets/icons/love.png"), active: true },
+    { name: "Loyalty Account", icon: assetPath("/assets/icons/gift-(2).png"), active: false },
+    { name: "Loyalty Reward", icon: assetPath("/assets/icons/loyalty-reward.png"), active: false },
+    { name: "Address Book", icon: assetPath("/assets/icons/location-pin.png"), active: false },
+    { name: "Cards", icon: assetPath("/assets/icons/payment.png"), active: false },
+    { name: "Contact Preferences", icon: assetPath("/assets/icons/operator-(2).png"), active: false },
+    { name: "Logout", icon: assetPath("/assets/icons/logout.png"), active: false, isDanger: true },
   ];
 
   return (

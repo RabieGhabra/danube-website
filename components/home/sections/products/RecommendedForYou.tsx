@@ -1,14 +1,15 @@
-﻿import Image from "next/image";
+﻿import { assetPath } from "@/lib/asset-path";
+import Image from "next/image";
 import Container from "@/components/ui/container";
 import { ProductCard } from "@/components/products/ProductCard";
 import { Button } from "@/components/ui/button";
 
 const products = [
-  { title: "Danube Imported\nBanana 1 kg", image: "/danube-website/assets/images/banana.png" },
-  { title: "Danube Cucumber\n(Tray) 900g", image: "/danube-website/assets/images/cucumber.png" },
-  { title: "Danube Tomato\n1kg", image: "/danube-website/assets/images/tomato.png" },
-  { title: "Danube Imported\nBanana 1 kg", image: "/danube-website/assets/images/bread.png" },
-  { title: "Danube Imported\nBanana 1 kg", image: "/danube-website/assets/images/parsley.png" },
+  { title: "Danube Imported\nBanana 1 kg", image: assetPath("/assets/images/banana.png") },
+  { title: "Danube Cucumber\n(Tray) 900g", image: assetPath("/assets/images/cucumber.png") },
+  { title: "Danube Tomato\n1kg", image: assetPath("/assets/images/tomato.png") },
+  { title: "Danube Imported\nBanana 1 kg", image: assetPath("/assets/images/bread.png") },
+  { title: "Danube Imported\nBanana 1 kg", image: assetPath("/assets/images/parsley.png") },
 ];
 
 export const RecommendedForYou = () => {
@@ -30,7 +31,7 @@ export const RecommendedForYou = () => {
         >
           See all
           <Image
-            src="/danube-website/assets/icons/see-all.png"
+            src={assetPath("/assets/icons/see-all.png")}
             alt=""
             width={42}
             height={42}
