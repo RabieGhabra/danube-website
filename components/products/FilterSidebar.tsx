@@ -124,16 +124,16 @@ export const FilterSidebar = () => {
           <div className="mb-3 flex items-center justify-between text-sm font-medium text-gray-900">
             <span className="flex items-center gap-1">
               <img
-                src="/danube-website/assets/icons/SAR.png"
-                alt="SAR"
+                src="/danube-website/assets/icons/sar.png"
+                alt="sar"
                 className="h-4 w-4 object-contain"
               />
               {minPrice}
             </span>
             <span className="flex items-center gap-1">
               <img
-                src="/danube-website/assets/icons/SAR.png"
-                alt="SAR"
+                src="/danube-website/assets/icons/sar.png"
+                alt="sar"
                 className="h-4 w-4 object-contain"
               />
               {maxPrice}+

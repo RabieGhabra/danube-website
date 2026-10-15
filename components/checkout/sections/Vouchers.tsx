@@ -91,8 +91,8 @@ export const Vouchers = () => {
                       Enjoy{" "}
                       <span className="inline-flex items-center gap-1">
                         <img
-                          src="/danube-website/assets/icons/SAR.png"
-                          alt="SAR"
+                          src="/danube-website/assets/icons/sar.png"
+                          alt="sar"
                           className="h-4 w-4 object-contain"
                         />
                         100

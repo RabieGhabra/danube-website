@@ -3,7 +3,7 @@ import { ProductCard } from "@/components/products/ProductCard";
 
 const products = [
   { title: "Al-Watania Poultry\nMedium-Large...", image: "/danube-website/assets/images/blueberry.png" },
-  { title: "Kinza Cola\nCarbonated Drink", image: "/danube-website/assets/images/Chips.png" },
+  { title: "Kinza Cola\nCarbonated Drink", image: "/danube-website/assets/images/chips.png" },
   { title: "Danube Tomato\n1kg", image: "/danube-website/assets/images/banana(2).png" },
   { title: "Danube Imported\nBanana 1 kg", image: "/danube-website/assets/images/fresh-cream.png" },
   { title: "Danube Imported\nBanana 1 kg", image: "/danube-website/assets/images/Kinza.png" },

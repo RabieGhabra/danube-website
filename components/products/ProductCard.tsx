@@ -90,7 +90,7 @@ export const ProductCard = ({
 
         <div className="mx-auto mb-1.5 mt-auto flex items-center justify-between bg-white pl-4 pr-1" style={{ width: "165px", height: "44px", borderRadius: "68px" }}>
           <div className="flex items-center gap-1">
-            <img src="/danube-website/assets/icons/SAR.png" alt="SAR" className="h-3.5 w-3.5 object-contain" />
+            <img src="/danube-website/assets/icons/sar.png" alt="sar" className="h-3.5 w-3.5 object-contain" />
             <span className="text-[13px] font-bold text-primary">{price}</span>
           </div>
 
@@ -140,7 +140,7 @@ export const ProductCard = ({
 
         <div className="mt-3 flex flex-col items-start">
           <div className="flex items-center gap-2">
-            <img src="/danube-website/assets/icons/SAR.png" alt="SAR" className="h-5 w-5 object-contain" />
+            <img src="/danube-website/assets/icons/sar.png" alt="sar" className="h-5 w-5 object-contain" />
             <span className="text-xl font-bold leading-none text-primary">{price}</span>
           </div>
 
@@ -200,7 +200,7 @@ export const ProductCard = ({
 
           <div className="mx-auto mt-5 flex w-[89%] items-center justify-between">
             <div className="flex items-center">
-              <img src="/danube-website/assets/icons/SAR.png" alt="SAR" className="h-6.25 w-6.25 object-contain" />
+              <img src="/danube-website/assets/icons/sar.png" alt="sar" className="h-6.25 w-6.25 object-contain" />
 
               <div className="ml-3.25 flex flex-col">
                 <span className="text-base font-bold text-primary">{price}</span>

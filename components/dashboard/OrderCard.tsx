@@ -71,7 +71,7 @@ export const OrderCard = ({
                 {sar && (
                   <img
                     src="/danube-website/assets/icons/sar.png"
-                    alt="SAR"
+                    alt="sar"
                     className="h-6 w-5 object-contain"
                   />
                 )}

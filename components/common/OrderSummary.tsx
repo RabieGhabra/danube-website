@@ -40,8 +40,8 @@ export const OrderSummary = ({
 
               <span className="flex items-center gap-1 text-[15px] font-medium text-primary sm:text-[16px]">
                 <img
-                  src="/danube-website/assets/icons/SAR.png"
-                  alt="SAR"
+                  src="/danube-website/assets/icons/sar.png"
+                  alt="sar"
                   className="h-4 w-4 object-contain"
                 />
                 1500
@@ -51,13 +51,13 @@ export const OrderSummary = ({
             {/* Delivery Fees */}
             <div className="mt-5 flex items-center justify-between">
               <span className="text-[15px] font-medium text-[#84899D] sm:text-[16px]">
-                Delivery Fees (SAR 15.00)
+                inclusive of VAT (15.0%)
               </span>
 
               <span className="flex items-center gap-1 text-[15px] font-medium text-primary sm:text-[16px]">
                 <img
-                  src="/danube-website/assets/icons/SAR.png"
-                  alt="SAR"
+                  src="/danube-website/assets/icons/sar.png"
+                  alt="sar"
                   className="h-4 w-4 object-contain"
                 />
                 19.03
@@ -67,13 +67,13 @@ export const OrderSummary = ({
             {/* VAT */}
             <div className="mt-5 flex items-center justify-between">
               <span className="text-[15px] font-medium text-[#84899D] sm:text-[16px]">
-                VAT (15%)
+                Voucher
               </span>
 
               <span className="flex items-center gap-1 text-[15px] font-medium text-primary sm:text-[16px]">
                 <img
-                  src="/danube-website/assets/icons/SAR.png"
-                  alt="SAR"
+                  src="/danube-website/assets/icons/sar.png"
+                  alt="sar"
                   className="h-4 w-4 object-contain"
                 />
                 19.03
@@ -83,13 +83,13 @@ export const OrderSummary = ({
             {/* Promotion */}
             <div className="mt-5 flex items-center justify-between">
               <span className="text-[15px] font-medium text-[#84899D] sm:text-[16px]">
-                Promotion (SAR200)
+                Promotion (SA2025)
               </span>
 
               <span className="flex items-center gap-1 text-[15px] font-medium text-primary sm:text-[16px]">
                 <img
-                  src="/danube-website/assets/icons/SAR.png"
-                  alt="SAR"
+                  src="/danube-website/assets/icons/sar.png"
+                  alt="sar"
                   className="h-4 w-4 object-contain"
                 />
                 19.03
@@ -120,11 +120,11 @@ export const OrderSummary = ({
 
               <span className="flex items-center gap-1 text-[18px] font-bold text-primary sm:text-[20px]">
                 <img
-                  src="/danube-website/assets/icons/SAR.png"
-                  alt="SAR"
+                  src="/danube-website/assets/icons/sar.png"
+                  alt="sar"
                   className="h-6 w-6 object-contain"
                 />
-                1,462.35
+                1,462.91
               </span>
             </div>
 

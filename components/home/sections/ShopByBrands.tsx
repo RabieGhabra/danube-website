@@ -23,7 +23,7 @@ const brands = [
     productSrc: `${assetBase}digestive-biscuits.png`,
     logoAlt: "Digestive Logo",
     logoClass: "w-[71.98%] object-contain",
-    logoSrc: `${assetBase}Digestive-Logo.png`,
+    logoSrc: `${assetBase}digestive-logo.png`,
   },
   {
     productAlt: "Lurpak Butter",

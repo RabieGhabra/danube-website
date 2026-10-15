@@ -67,8 +67,8 @@ export const GiftCardPromotion = () => {
 
                       <div className="mt-3 flex items-center gap-1.25">
                         <img
-                          src="/danube-website/assets/icons/SAR-(2).png"
-                          alt="SAR"
+                          src="/danube-website/assets/icons/sar-(2).png"
+                          alt="sar"
                           className="h-6 w-6 md:h-6.75 md:w-6"
                         />
                         <span className="text-[19px] font-bold text-primary-green">

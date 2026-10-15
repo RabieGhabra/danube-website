@@ -81,7 +81,7 @@ const ProductInfo = ({ type }: { type: "detail-meat" | "detail" }) => {
       {/* Price */}
       <div className="mt-4 flex flex-wrap items-center gap-2.5">
         <span className="flex items-center gap-1 text-[24px] font-bold text-primary">
-          <img src="/danube-website/assets/icons/sar.png" alt="SAR" className="h-5 w-5" />
+          <img src="/danube-website/assets/icons/sar.png" alt="sar" className="h-5 w-5" />
           26.00
         </span>
         <span className="text-[16px] font-semibold text-[#FF3F3F] line-through">
