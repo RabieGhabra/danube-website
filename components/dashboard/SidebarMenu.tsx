@@ -1,4 +1,4 @@
-/* eslint-disable @next/next/no-img-element */
+﻿/* eslint-disable @next/next/no-img-element */
 "use client";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
@@ -7,15 +7,15 @@ const SidebarMenu = () => {
   const currentPath = usePathname();
 
   const menuItems = [
-    { name: "Edit Profile", path: "/dashboard-edit-profile", icon: "/assets/icons/operator-(2).png", active: true },
-    { name: "My Orders", path: "/dashboard-my-orders", icon: "/assets/icons/my-orders.png", active: true },
-    { name: "My Wishlist", path: "/dashboard-my-wishlist", icon: "/assets/icons/love.png", active: true },
-    { name: "Loyalty Account", icon: "/assets/icons/gift-(2).png", active: false },
-    { name: "Loyalty Reward", icon: "/assets/icons/loyalty-reward.png", active: false },
-    { name: "Address Book", icon: "/assets/icons/location-pin.png", active: false },
-    { name: "Cards", icon: "/assets/icons/payment.png", active: false },
-    { name: "Contact Preferences", icon: "/assets/icons/operator-(2).png", active: false },
-    { name: "Logout", icon: "/assets/icons/logout.png", active: false, isDanger: true },
+    { name: "Edit Profile", path: "/dashboard-edit-profile", icon: "/danube-website/assets/icons/operator-(2).png", active: true },
+    { name: "My Orders", path: "/dashboard-my-orders", icon: "/danube-website/assets/icons/my-orders.png", active: true },
+    { name: "My Wishlist", path: "/dashboard-my-wishlist", icon: "/danube-website/assets/icons/love.png", active: true },
+    { name: "Loyalty Account", icon: "/danube-website/assets/icons/gift-(2).png", active: false },
+    { name: "Loyalty Reward", icon: "/danube-website/assets/icons/loyalty-reward.png", active: false },
+    { name: "Address Book", icon: "/danube-website/assets/icons/location-pin.png", active: false },
+    { name: "Cards", icon: "/danube-website/assets/icons/payment.png", active: false },
+    { name: "Contact Preferences", icon: "/danube-website/assets/icons/operator-(2).png", active: false },
+    { name: "Logout", icon: "/danube-website/assets/icons/logout.png", active: false, isDanger: true },
   ];
 
   return (

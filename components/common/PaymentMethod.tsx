@@ -1,4 +1,4 @@
-/* eslint-disable @next/next/no-img-element */
+﻿/* eslint-disable @next/next/no-img-element */
 "use client";
 import { Card, CardContent } from "@/components/ui/card";
 
@@ -15,7 +15,7 @@ export const PaymentMethod = ({ showChange = true }: PaymentMethodProps) => {
           {/* Title */}
           <div className="flex items-center gap-3">
             <img
-              src="/assets/icons/payment.png"
+              src="/danube-website/assets/icons/payment.png"
               alt="Payment"
               className="h-7 w-7 object-contain sm:h-8 sm:w-8"
             />
@@ -27,7 +27,7 @@ export const PaymentMethod = ({ showChange = true }: PaymentMethodProps) => {
           {showChange && (
             <div className="flex cursor-pointer items-center gap-2 text-sm font-semibold text-primary sm:text-base">
               <img
-                src="/assets/icons/edit.png"
+                src="/danube-website/assets/icons/edit.png"
                 alt="Edit"
                 className="object-contain"
               />
@@ -47,7 +47,7 @@ export const PaymentMethod = ({ showChange = true }: PaymentMethodProps) => {
             }}
           >
             <img
-              src="/assets/icons/Group-76848.png"
+              src="/danube-website/assets/icons/Group-76848.png"
               alt="Card"
               className="h-5 w-auto object-contain"
             />

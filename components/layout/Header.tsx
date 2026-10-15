@@ -1,4 +1,4 @@
-/* eslint-disable @next/next/no-location-assign-relative-destination */
+﻿/* eslint-disable @next/next/no-location-assign-relative-destination */
 /* eslint-disable @next/next/no-img-element */
 "use client";
 import { useState } from "react";
@@ -37,19 +37,19 @@ const departmentItems: DepartmentItem[] = [
 const serviceOptions: ServiceOption[] = [
   {
     label: "Express",
-    icon: "/assets/icons/express.png",
+    icon: "/danube-website/assets/icons/express.png",
     className: "border border-primary bg-primary text-[#97e080]",
     iconClassName: "h-[32px] w-[32px]",
   },
   {
     label: "Schedule",
-    icon: "/assets/icons/schedule.png",
+    icon: "/danube-website/assets/icons/schedule.png",
     className: "bg-[#f2f2f2] text-[#26a200]",
     iconClassName: "h-[30px] w-[30px]",
   },
   {
     label: "Store Pickup",
-    icon: "/assets/icons/store-pickup.png",
+    icon: "/danube-website/assets/icons/store-pickup.png",
     className: "bg-[#f2f2f2] text-[#26a200]",
     iconClassName: "h-[28px] w-[28px]",
   },
@@ -118,8 +118,8 @@ export const Header = ({
         <div className="flex w-full flex-col pt-8">
           <div className="flex items-start justify-between gap-4 max-[1498px]:flex-col">
             <div className="flex w-29 shrink-0 flex-col items-center">
-              <Icon src="/assets/images/arabic-logo.png" className="h-8.75 w-29" />
-              <Icon src="/assets/images/logo.png" alt="Danube" className="h-8.75 w-29" />
+              <Icon src="/danube-website/assets/images/arabic-logo.png" className="h-8.75 w-29" />
+              <Icon src="/danube-website/assets/images/logo.png" alt="Danube" className="h-8.75 w-29" />
             </div>
 
             <div className="mt-4 hidden items-start gap-6 md:flex max-[1498px]:flex max-[1498px]:flex-wrap">
@@ -147,9 +147,9 @@ export const Header = ({
               variant="outline"
               className="hidden h-11 min-w-57.5 justify-between rounded-2xl border-[0.4px] border-black bg-primary px-3 text-[14px] font-medium leading-5.5 tracking-[-0.41px] text-[#97e080] lg:flex max-[1495px]:flex"
             >
-              <Icon src="/assets/icons/location.png" className="h-5 w-5" />
+              <Icon src="/danube-website/assets/icons/location.png" className="h-5 w-5" />
               <span className="truncate">Flat No. 101, Building 12, Al</span>
-              <Icon src="/assets/icons/arrow.png" className="h-4 w-4" />
+              <Icon src="/danube-website/assets/icons/arrow.png" className="h-4 w-4" />
             </Button>
 
             <form
@@ -157,7 +157,7 @@ export const Header = ({
               className="relative min-w-0 flex-1 max-[1498px]:order-2 max-[1498px]:w-full max-[1498px]:basis-full"
             >
               <Icon
-                src="/assets/icons/search.png"
+                src="/danube-website/assets/icons/search.png"
                 className="pointer-events-none absolute left-4 top-1/2 h-5 w-5 -translate-y-1/2"
               />
               <Input
@@ -167,7 +167,7 @@ export const Header = ({
                 className="h-11 w-full rounded-lg border-0 bg-white py-2 pl-11 pr-10 text-[14px] font-normal leading-5.5 tracking-[-0.41px] text-dark-gray placeholder:text-dark-gray focus-visible:ring-1 focus-visible:ring-[#97e080]"
               />
               <Icon
-                src="/assets/icons/qr-scan.png"
+                src="/danube-website/assets/icons/qr-scan.png"
                 className="pointer-events-none absolute right-4 top-1/2 h-4.75 w-auto -translate-y-1/2"
               />
             </form>
@@ -181,8 +181,8 @@ export const Header = ({
                   aria-label="Abdullah Ahmed"
                   className="flex h-12.5 shrink-0 items-center gap-2 p-0 text-sm font-medium tracking-[-0.41px]"
                 >
-                  <CircleIcon src="/assets/icons/bot.png" alt="User assistant" className="bg-primary" />
-                  <CircleIcon src="/assets/icons/user.png" className="bg-primary" />
+                  <CircleIcon src="/danube-website/assets/icons/bot.png" alt="User assistant" className="bg-primary" />
+                  <CircleIcon src="/danube-website/assets/icons/user.png" className="bg-primary" />
                   <span className="text-center text-[14px] font-medium leading-5.5 tracking-[-0.41px]">
                     Abdullah Ahmed
                   </span>
@@ -195,8 +195,8 @@ export const Header = ({
                   onClick={() => router.push("/sign-up")}
                   className="flex h-12.5 shrink-0 items-center gap-2 p-0 text-sm font-medium tracking-[-0.41px]"
                 >
-                  <CircleIcon src="/assets/icons/bot.png" alt="User assistant" className="bg-primary" />
-                  <CircleIcon src="/assets/icons/user.png" className="bg-primary" />
+                  <CircleIcon src="/danube-website/assets/icons/bot.png" alt="User assistant" className="bg-primary" />
+                  <CircleIcon src="/danube-website/assets/icons/user.png" className="bg-primary" />
                   <span className="cursor-pointer text-center text-[14px] font-medium leading-5.5 tracking-[-0.41px]">
                     Sign up or Log in
                   </span>
@@ -206,8 +206,8 @@ export const Header = ({
               <CircleIcon
                 src={
                   path === "/brochures-1"
-                    ? "/assets/icons/shopping-cart-(1).png"
-                    : "/assets/icons/cart.png"
+                    ? "/danube-website/assets/icons/shopping-cart-(1).png"
+                    : "/danube-website/assets/icons/cart.png"
                 }
                 alt="Shopping cart"
                 className={path === "/brochures-1" ? "bg-white" : "bg-primary"}
@@ -233,7 +233,7 @@ export const Header = ({
                     aria-controls="all-departments-menu"
                     className="h-11.25 shrink-0 gap-4 rounded-t-lg rounded-b-none bg-[#97e080] px-6 text-[16px] font-semibold leading-6 tracking-normal"
                   >
-                    <Icon src="/assets/icons/list.png" className="h-3.5 w-3.5" />
+                    <Icon src="/danube-website/assets/icons/list.png" className="h-3.5 w-3.5" />
                     <span>All Departments</span>
                     <ChevronDownIcon
                       className={`h-4 w-4 transition-transform duration-200`}

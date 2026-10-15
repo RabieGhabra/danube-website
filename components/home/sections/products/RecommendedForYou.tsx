@@ -1,14 +1,14 @@
-import Image from "next/image";
+﻿import Image from "next/image";
 import Container from "@/components/ui/container";
 import { ProductCard } from "@/components/products/ProductCard";
 import { Button } from "@/components/ui/button";
 
 const products = [
-  { title: "Danube Imported\nBanana 1 kg", image: "/assets/images/banana.png" },
-  { title: "Danube Cucumber\n(Tray) 900g", image: "/assets/images/cucumber.png" },
-  { title: "Danube Tomato\n1kg", image: "/assets/images/tomato.png" },
-  { title: "Danube Imported\nBanana 1 kg", image: "/assets/images/bread.png" },
-  { title: "Danube Imported\nBanana 1 kg", image: "/assets/images/parsley.png" },
+  { title: "Danube Imported\nBanana 1 kg", image: "/danube-website/assets/images/banana.png" },
+  { title: "Danube Cucumber\n(Tray) 900g", image: "/danube-website/assets/images/cucumber.png" },
+  { title: "Danube Tomato\n1kg", image: "/danube-website/assets/images/tomato.png" },
+  { title: "Danube Imported\nBanana 1 kg", image: "/danube-website/assets/images/bread.png" },
+  { title: "Danube Imported\nBanana 1 kg", image: "/danube-website/assets/images/parsley.png" },
 ];
 
 export const RecommendedForYou = () => {
@@ -30,7 +30,7 @@ export const RecommendedForYou = () => {
         >
           See all
           <Image
-            src="/assets/icons/see-all.png"
+            src="/danube-website/assets/icons/see-all.png"
             alt=""
             width={42}
             height={42}

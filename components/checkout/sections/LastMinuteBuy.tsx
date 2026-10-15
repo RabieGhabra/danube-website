@@ -1,4 +1,4 @@
-/* eslint-disable @next/next/no-img-element */
+﻿/* eslint-disable @next/next/no-img-element */
 "use client";
 import { Card, CardContent } from "@/components/ui/card";
 import { ProductCard } from "../../products/ProductCard";
@@ -14,7 +14,7 @@ export const LastMinuteBuy = ({ items, updateQty }: Props) => {
     <>
       <div className="mb-5 flex items-center gap-3">
         <img
-          src="/assets/icons/shopping-cart-(1).png"
+          src="/danube-website/assets/icons/shopping-cart-(1).png"
           alt="Cart"
           className="object-contain"
         />

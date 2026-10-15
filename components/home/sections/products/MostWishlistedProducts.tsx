@@ -1,12 +1,12 @@
-import Container from "@/components/ui/container";
+﻿import Container from "@/components/ui/container";
 import { ProductCard } from "@/components/products/ProductCard";
 
 const products = [
-  { title: "Al-Watania Poultry\nMedium-Large...", image: "/assets/images/blueberry.png" },
-  { title: "Kinza Cola\nCarbonated Drink", image: "/assets/images/Chips.png" },
-  { title: "Danube Tomato\n1kg", image: "/assets/images/banana(2).png" },
-  { title: "Danube Imported\nBanana 1 kg", image: "/assets/images/fresh-cream.png" },
-  { title: "Danube Imported\nBanana 1 kg", image: "/assets/images/Kinza.png" },
+  { title: "Al-Watania Poultry\nMedium-Large...", image: "/danube-website/assets/images/blueberry.png" },
+  { title: "Kinza Cola\nCarbonated Drink", image: "/danube-website/assets/images/Chips.png" },
+  { title: "Danube Tomato\n1kg", image: "/danube-website/assets/images/banana(2).png" },
+  { title: "Danube Imported\nBanana 1 kg", image: "/danube-website/assets/images/fresh-cream.png" },
+  { title: "Danube Imported\nBanana 1 kg", image: "/danube-website/assets/images/Kinza.png" },
 ];
 
 export const MostWishlistedProducts = () => {

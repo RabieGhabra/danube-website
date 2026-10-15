@@ -1,20 +1,20 @@
-/* eslint-disable @next/next/no-img-element */
+﻿/* eslint-disable @next/next/no-img-element */
 "use client";
 import Container from "../../ui/container";
 import { Button } from "@/components/ui/button";
 
 const images = {
-  delivery: "/assets/icons/delivery.png",
-  minOrder: "/assets/icons/min-order.png",
-  charity: "/assets/icons/charity.png",
-  customer: "/assets/icons/customer.png",
-  promotions: "/assets/icons/promotions.png",
-  prices: "/assets/icons/prices.png",
-  num1: "/assets/images/1.png",
-  num2: "/assets/images/2.png",
-  num3: "/assets/images/3.png",
-  num4: "/assets/images/4.png",
-  num5: "/assets/images/5.png",
+  delivery: "/danube-website/assets/icons/delivery.png",
+  minOrder: "/danube-website/assets/icons/min-order.png",
+  charity: "/danube-website/assets/icons/charity.png",
+  customer: "/danube-website/assets/icons/customer.png",
+  promotions: "/danube-website/assets/icons/promotions.png",
+  prices: "/danube-website/assets/icons/prices.png",
+  num1: "/danube-website/assets/images/1.png",
+  num2: "/danube-website/assets/images/2.png",
+  num3: "/danube-website/assets/images/3.png",
+  num4: "/danube-website/assets/images/4.png",
+  num5: "/danube-website/assets/images/5.png",
 };
 
 const benefits = [

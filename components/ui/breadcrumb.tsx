@@ -1,4 +1,4 @@
- /* eslint-disable @next/next/no-img-element */
+﻿ /* eslint-disable @next/next/no-img-element */
 import Link from "next/link";
 
 type BreadcrumbProps = {
@@ -21,7 +21,7 @@ const Breadcrumb = ({ items = [], rootLabel = "Home", rootLink = "/" }: Breadcru
       {items.map((item, index) => (
         <div key={item} className="flex items-center gap-2">
           <img
-            src="/assets/icons/layer-(1).png"
+            src="/danube-website/assets/icons/layer-(1).png"
             alt=""
             className="h-3 w-3 object-contain"
           />
@@ -30,7 +30,7 @@ const Breadcrumb = ({ items = [], rootLabel = "Home", rootLink = "/" }: Breadcru
 
           {index === items.length - 1 && (
             <img
-              src="/assets/icons/layer-(1).png"
+              src="/danube-website/assets/icons/layer-(1).png"
               alt=""
               className="h-3 w-3 object-contain"
             />

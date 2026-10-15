@@ -1,4 +1,4 @@
-/* eslint-disable react/no-unescaped-entities */
+﻿/* eslint-disable react/no-unescaped-entities */
 /* eslint-disable @next/next/no-img-element */
 "use client";
 import Container from "../../ui/container";
@@ -14,7 +14,7 @@ export const DidYouKnow = () => {
         }}
       >
         <img
-          src="/assets/images/discount-badge-(1).png"
+          src="/danube-website/assets/images/discount-badge-(1).png"
           alt="Badge"
           className="absolute left-1/2 top-0 z-20 w-[clamp(40px,5vw,80px)] -translate-x-1/2 -translate-y-1/2 object-contain"
         />

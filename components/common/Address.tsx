@@ -1,4 +1,4 @@
-/* eslint-disable @next/next/no-img-element */
+﻿/* eslint-disable @next/next/no-img-element */
 "use client";
 import { Card, CardContent } from "@/components/ui/card";
 
@@ -14,7 +14,7 @@ export const Address = ({ showChange = true }: AddressProps) => {
         <div className="mb-5 flex w-full flex-col gap-3 min-[240px]:flex-row min-[240px]:items-center min-[240px]:justify-between">
           <div className="flex min-w-0 items-center gap-2 text-[18px] font-semibold leading-[100%] tracking-[0%] text-primary sm:gap-3 sm:text-[20px] md:gap-4 md:text-[24px]">
             <img
-              src="/assets/icons/location-pin.png"
+              src="/danube-website/assets/icons/location-pin.png"
               alt="Address"
               className="h-auto w-auto shrink-0 object-contain"
             />
@@ -24,7 +24,7 @@ export const Address = ({ showChange = true }: AddressProps) => {
           {showChange && (
             <div className="cursor-pointer flex shrink-0 items-center gap-3 text-sm font-semibold text-primary sm:text-base">
               <img
-                src="/assets/icons/edit.png"
+                src="/danube-website/assets/icons/edit.png"
                 alt="Edit"
                 className="h-auto w-auto shrink-0 object-contain"
               />

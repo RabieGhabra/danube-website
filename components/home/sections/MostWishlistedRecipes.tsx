@@ -1,13 +1,13 @@
-"use client";
+﻿"use client";
 /* eslint-disable @next/next/no-img-element */
 import { Card, CardContent } from "@/components/ui/card";
 import Container from "@/components/ui/container";
 
 const recipeItems = [
-  { image: "/assets/images/Rectangle-139401.png", title: "BlackBean & Sweet Potato Patties with shredded Broccoli" },
-  { image: "/assets/images/Rectangle-139408.png", title: "Italian Stuffed Peppers with Toasted Za'atar Chickpeas and" },
-  { image: "/assets/images/Rectangle-139408-(1).png", title: "BlackBean & Sweet Potato Patties with shredded Broccoli" },
-  { image: "/assets/images/Rectangle-139408-(2).png", title: "BlackBean & Sweet Potato Patties with shredded Broccoli" }
+  { image: "/danube-website/assets/images/Rectangle-139401.png", title: "BlackBean & Sweet Potato Patties with shredded Broccoli" },
+  { image: "/danube-website/assets/images/Rectangle-139408.png", title: "Italian Stuffed Peppers with Toasted Za'atar Chickpeas and" },
+  { image: "/danube-website/assets/images/Rectangle-139408-(1).png", title: "BlackBean & Sweet Potato Patties with shredded Broccoli" },
+  { image: "/danube-website/assets/images/Rectangle-139408-(2).png", title: "BlackBean & Sweet Potato Patties with shredded Broccoli" }
 ];
 
 export const MostWishlistedRecipes = () => {
@@ -41,7 +41,7 @@ export const MostWishlistedRecipes = () => {
               <img
                 className="absolute right-4 top-4 h-10 w-10 cursor-pointer"
                 alt="favorite"
-                src="/assets/icons/Group-1171275531.png"
+                src="/danube-website/assets/icons/Group-1171275531.png"
               />
 
               <h3 className="absolute bottom-5 left-5 w-[69.32%] text-base font-medium leading-6 text-white">

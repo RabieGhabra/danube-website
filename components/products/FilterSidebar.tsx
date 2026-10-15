@@ -1,4 +1,4 @@
-"use client"; /* eslint-disable @next/next/no-img-element */
+﻿"use client"; /* eslint-disable @next/next/no-img-element */
 import { useState } from "react";
 import { Button } from "../ui/button";
 import { Input } from "../ui/input";
@@ -29,7 +29,7 @@ const sizes = [
 ];
 
 const checkClass =
-  "h-6 w-6 cursor-pointer appearance-none rounded-md border-0 bg-[#F2F3F7] checked:bg-green-500 checked:after:flex checked:after:h-full checked:after:w-full checked:after:items-center checked:after:justify-center checked:after:text-[16px] checked:after:font-bold checked:after:text-white checked:after:content-['✓']";
+  "h-6 w-6 cursor-pointer appearance-none rounded-md border-0 bg-[#F2F3F7] checked:bg-green-500 checked:after:flex checked:after:h-full checked:after:w-full checked:after:items-center checked:after:justify-center checked:after:text-[16px] checked:after:font-bold checked:after:text-white checked:after:content-['âœ“']";
 
 const List = ({ items }: { items: { name: string; count: number }[] }) => (
   <ul className="space-y-3">
@@ -76,7 +76,7 @@ export const FilterSidebar = () => {
           <h3 className="mb-3 text-[15px] font-bold text-gray-900">Brand</h3>
           <div className="relative mb-4">
             <img
-              src="/assets/icons/search.png"
+              src="/danube-website/assets/icons/search.png"
               alt="Search"
               className="absolute left-3 top-1/2 z-10 h-4 w-4 -translate-y-1/2 object-contain"
             />
@@ -124,7 +124,7 @@ export const FilterSidebar = () => {
           <div className="mb-3 flex items-center justify-between text-sm font-medium text-gray-900">
             <span className="flex items-center gap-1">
               <img
-                src="/assets/icons/SAR.png"
+                src="/danube-website/assets/icons/SAR.png"
                 alt="SAR"
                 className="h-4 w-4 object-contain"
               />
@@ -132,7 +132,7 @@ export const FilterSidebar = () => {
             </span>
             <span className="flex items-center gap-1">
               <img
-                src="/assets/icons/SAR.png"
+                src="/danube-website/assets/icons/SAR.png"
                 alt="SAR"
                 className="h-4 w-4 object-contain"
               />

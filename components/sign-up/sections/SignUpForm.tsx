@@ -1,4 +1,4 @@
-/* eslint-disable @next/next/no-img-element */
+﻿/* eslint-disable @next/next/no-img-element */
 "use client";
 import { useState } from "react";
 import Link from "next/link";
@@ -27,7 +27,7 @@ const INPUT_STYLE: React.CSSProperties = {
   borderRadius: "17px",
 };
 
-const countries = [{ code: "SA", dial: "+966", flag: "/assets/icons/sa.png" }];
+const countries = [{ code: "SA", dial: "+966", flag: "/danube-website/assets/icons/sa.png" }];
 
 type IconInputProps = React.ComponentProps<typeof Input> & {
   icon: string;
@@ -122,12 +122,12 @@ const SignUpForm = () => {
 
         <form className="space-y-3 sm:space-y-4 max-[360px]:space-y-2.5 max-[280px]:space-y-2">
           <div className="flex flex-col gap-3 sm:flex-row sm:gap-4 max-[360px]:gap-2.5 max-[280px]:gap-2">
-            <IconInput wrapperClassName="relative w-full sm:w-1/2" icon="/assets/icons/profile.png" alt="first name" placeholder="First Name" />
-            <IconInput wrapperClassName="relative w-full sm:w-1/2" icon="/assets/icons/profile.png" alt="last name" placeholder="Last Name" />
+            <IconInput wrapperClassName="relative w-full sm:w-1/2" icon="/danube-website/assets/icons/profile.png" alt="first name" placeholder="First Name" />
+            <IconInput wrapperClassName="relative w-full sm:w-1/2" icon="/danube-website/assets/icons/profile.png" alt="last name" placeholder="Last Name" />
           </div>
 
-          <IconInput icon="/assets/icons/mail.png" alt="mail" type="email" placeholder="Enter Email" />
-          <IconInput icon="/assets/icons/lock.png" alt="lock" type="password" placeholder="Enter Password" />
+          <IconInput icon="/danube-website/assets/icons/mail.png" alt="mail" type="email" placeholder="Enter Email" />
+          <IconInput icon="/danube-website/assets/icons/lock.png" alt="lock" type="password" placeholder="Enter Password" />
 
           <div className="flex flex-col gap-3 sm:flex-row sm:gap-2 max-[360px]:gap-2.5 max-[280px]:gap-2">
           <div className="flex h-13.5 w-full shrink-0 cursor-default items-center gap-2 rounded-[17px] bg-[#F2F3F7] px-3 text-sm text-primary sm:w-auto max-[360px]:h-12 max-[280px]:h-11">
@@ -151,7 +151,7 @@ const SignUpForm = () => {
           </div>
 
           <IconInput
-            icon="/assets/icons/calendar.png"
+            icon="/danube-website/assets/icons/calendar.png"
             alt="calendar"
             type={dobType}
             placeholder="Date of Birth"
@@ -159,7 +159,7 @@ const SignUpForm = () => {
             onBlur={(e) => !e.target.value && setDobType("text")}
           />
 
-          <IconInput icon="/assets/icons/share.png" alt="referral" placeholder="Enter Referral Code (Optional)" />
+          <IconInput icon="/danube-website/assets/icons/share.png" alt="referral" placeholder="Enter Referral Code (Optional)" />
 
           <div className="space-y-3 pt-2 max-[360px]:space-y-2.5 max-[280px]:space-y-2">
             <CheckboxRow checked={agreeTerms} onChange={() => setAgreeTerms(!agreeTerms)}>

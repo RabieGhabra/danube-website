@@ -1,12 +1,12 @@
-/* eslint-disable @next/next/no-img-element */
+﻿/* eslint-disable @next/next/no-img-element */
 "use client";
 import { Card, CardContent } from "@/components/ui/card";
 
 const discounts = [
-  { id: 1, bank: "SAB Bank", discount: "25% Off", logo: "/assets/icons/sab-bank.png" },
-  { id: 2, bank: "Al Rajhi", discount: "25% Off", logo: "/assets/icons/al-rajhi.png" },
-  { id: 3, bank: "SAB Bank", discount: "25% Off", logo: "/assets/icons/sab-bank.png" },
-  { id: 4, bank: "Al Rajhi", discount: "25% Off", logo: "/assets/icons/al-rajhi.png" },
+  { id: 1, bank: "SAB Bank", discount: "25% Off", logo: "/danube-website/assets/icons/sab-bank.png" },
+  { id: 2, bank: "Al Rajhi", discount: "25% Off", logo: "/danube-website/assets/icons/al-rajhi.png" },
+  { id: 3, bank: "SAB Bank", discount: "25% Off", logo: "/danube-website/assets/icons/sab-bank.png" },
+  { id: 4, bank: "Al Rajhi", discount: "25% Off", logo: "/danube-website/assets/icons/al-rajhi.png" },
 ];
 
 const descriptionText = (
@@ -20,7 +20,7 @@ export const Discounts = () => {
     <Card className="border-0 bg-transparent shadow-none">
       <CardContent className="p-0">
         <div className="mb-5 flex items-center gap-3">
-          <img src="/assets/icons/discount.png" alt="Discounts" className="object-contain" />
+          <img src="/danube-website/assets/icons/discount.png" alt="Discounts" className="object-contain" />
           <h2 className="text-[20px] font-semibold leading-6 text-primary">Discounts</h2>
         </div>
 

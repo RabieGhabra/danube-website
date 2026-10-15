@@ -1,4 +1,4 @@
-/* eslint-disable @next/next/no-img-element */
+﻿/* eslint-disable @next/next/no-img-element */
 "use client";
 import { useState } from "react";
 import { Button } from "@/components/ui/button";
@@ -49,7 +49,7 @@ export const OffersGrid = ({
             onClick={() => changeSlide(-1)}
             className="absolute -left-3.75 top-1/2 z-9999 hidden -translate-y-1/2 cursor-pointer rounded-full p-0 lg:flex"
           >
-            <img alt="" src="/assets/icons/Group-1171275623.png" />
+            <img alt="" src="/danube-website/assets/icons/Group-1171275623.png" />
           </Button>
         )}
 
@@ -66,7 +66,7 @@ export const OffersGrid = ({
               >
                 {offer.highlight && (
                   <img
-                    src="/assets/images/frame.png"
+                    src="/danube-website/assets/images/frame.png"
                     alt="Frame"
                     className="absolute inset-0 z-20 h-full w-full pointer-events-none"
                   />
@@ -86,7 +86,7 @@ export const OffersGrid = ({
                 {offer.alt === "Offer 11" && (
                   <>
                     <img
-                      src="/assets/images/floating-bg.png"
+                      src="/danube-website/assets/images/floating-bg.png"
                       alt="Floating Background"
                       className="absolute left-1/2 top-[4%] z-15 w-[92%] max-w-[92%] -translate-x-1/2 pointer-events-none"
                     />
@@ -105,7 +105,7 @@ export const OffersGrid = ({
                 {offer.alt === "Offer 12" && (
                   <div className="absolute left-1/2 top-[7%] z-25 flex w-[92%] -translate-x-1/2 items-center justify-center pointer-events-none">
                     <img
-                      src="/assets/images/offer12-left.png"
+                      src="/danube-website/assets/images/offer12-left.png"
                       alt="Left Icon"
                       className="h-auto w-[clamp(24px,8vw,77px)] shrink-0 object-contain -mr-[clamp(6px,2vw,28px)] -translate-y-[clamp(4px,1.5vw,15px)]"
                     />
@@ -120,7 +120,7 @@ export const OffersGrid = ({
                       </div>
                     </div>
                     <img
-                      src="/assets/images/offer12-right.png"
+                      src="/danube-website/assets/images/offer12-right.png"
                       alt="Right Icon"
                       className="h-auto w-[clamp(22px,7vw,71px)] shrink-0 object-contain -ml-[clamp(5px,1.8vw,25px)] -translate-y-[clamp(4px,1.5vw,15px)]"
                     />
@@ -131,7 +131,7 @@ export const OffersGrid = ({
                 {offer.alt === "Offer 16" && (
                   <div className="absolute left-1/2 top-[5%] z-25 flex w-[96%] -translate-x-1/2 items-center justify-center pointer-events-none sm:top-[2%] sm:w-[94%] md:top-[-6%] md:w-[91%] lg:top-[-8%] lg:w-[88%] xl:top-[-6%] xl:w-[85%] max-[740px]:min-[621px]:top-[-2%]! max-[740px]:min-[621px]:w-[90%]! max-[770px]:min-[741px]:top-[-2%]!">
                     <img
-                      src="/assets/images/offer16-left.png"
+                      src="/danube-website/assets/images/offer16-left.png"
                       alt="Left Icon"
                       className="h-auto w-[clamp(32px,9.5vw,74px)] shrink-0 object-contain -mr-[clamp(4px,1.5vw,15px)] translate-y-[clamp(4px,1.8vw,15px)] max-[740px]:min-[621px]:w-14.5! max-[740px]:min-[621px]:translate-y-2!"
                     />
@@ -150,7 +150,7 @@ export const OffersGrid = ({
                       </span>
                     </div>
                     <img
-                      src="/assets/images/offer16-right.png"
+                      src="/danube-website/assets/images/offer16-right.png"
                       alt="Right Icon"
                       className="h-auto w-[clamp(28px,8vw,52px)] shrink-0 object-contain translate-y-[clamp(4px,1.8vw,15px)] max-[740px]:min-[621px]:w-10.5! max-[740px]:min-[621px]:translate-y-2!"
                     />
@@ -224,7 +224,7 @@ export const OffersGrid = ({
             onClick={() => changeSlide(1)}
             className="absolute -right-3.75 top-1/2 z-9999 -translate-y-1/2 cursor-pointer rounded-full p-0 lg:flex"
           >
-            <img alt="" src="/assets/icons/Group-78191.png" />
+            <img alt="" src="/danube-website/assets/icons/Group-78191.png" />
           </Button>
         )}
       </div>

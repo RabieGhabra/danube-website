@@ -1,4 +1,4 @@
-/* eslint-disable @next/next/no-img-element */
+﻿/* eslint-disable @next/next/no-img-element */
 "use client";
 import { Header } from "../layout/Header";
 import { Footer } from "../layout/Footer";
@@ -8,21 +8,21 @@ import { ProductCard } from "../products/ProductCard";
 import { Button } from "@/components/ui/button";
 
 const productsTop = [
-  { title: "Apple iPhone 17 Pro Max Cosmic Orange 512GB", image: "/assets/images/image-(210).png", oldPrice: "20.00" },
-  { title: "Apple iPhone 17 Pro Max Silver 256GB", image: "/assets/images/image-(211).png", oldPrice: "20.00" },
-  { title: "Apple iPhone 17 Pro Max Deep Blue 256GB", image: "/assets/images/image-(212).png", oldPrice: "20.00" },
+  { title: "Apple iPhone 17 Pro Max Cosmic Orange 512GB", image: "/danube-website/assets/images/image-(210).png", oldPrice: "20.00" },
+  { title: "Apple iPhone 17 Pro Max Silver 256GB", image: "/danube-website/assets/images/image-(211).png", oldPrice: "20.00" },
+  { title: "Apple iPhone 17 Pro Max Deep Blue 256GB", image: "/danube-website/assets/images/image-(212).png", oldPrice: "20.00" },
 ];
 
 const productsmiddle = [
-  { title: `Rainbow High Fashion Doll Gabriella Icely "Ice"`, image: "/assets/images/image-(410).png", oldPrice: "20.00" },
-  { title: "B & D Baby Doll Playset", image: "/assets/images/image-(411).png", oldPrice: "20.00" },
-  { title: "B & D Baby Doll Playset", image: "/assets/images/image-(412).png", oldPrice: "20.00" },
+  { title: `Rainbow High Fashion Doll Gabriella Icely "Ice"`, image: "/danube-website/assets/images/image-(410).png", oldPrice: "20.00" },
+  { title: "B & D Baby Doll Playset", image: "/danube-website/assets/images/image-(411).png", oldPrice: "20.00" },
+  { title: "B & D Baby Doll Playset", image: "/danube-website/assets/images/image-(412).png", oldPrice: "20.00" },
 ];
 
 const productsBottom = [
-  { title: "Samsung Crystal UHD QLED 8K TV", image: "/assets/images/pk-crystal-uhd-cu.png", oldPrice: "20.00" },
-  { title: "Samsung Neo QLED 8K TV", image: "/assets/images/2023_VD_TVs_All-TV-Categories.png", oldPrice: "20.00" },
-  { title: "Samsung OLED 4K TV 32 inch", image: "/assets/images/samsung.png", oldPrice: "20.00" },
+  { title: "Samsung Crystal UHD QLED 8K TV", image: "/danube-website/assets/images/pk-crystal-uhd-cu.png", oldPrice: "20.00" },
+  { title: "Samsung Neo QLED 8K TV", image: "/danube-website/assets/images/2023_VD_TVs_All-TV-Categories.png", oldPrice: "20.00" },
+  { title: "Samsung OLED 4K TV 32 inch", image: "/danube-website/assets/images/samsung.png", oldPrice: "20.00" },
 ];
 
 export const Brochures = () => {
@@ -42,13 +42,13 @@ export const Brochures = () => {
         {/* TOP PRODUCTS */}
         <div className="grid grid-cols-1 lg:grid-cols-[1fr_1.5fr] gap-6 pb-10 items-stretch">
           <div className="h-full">
-            <img src="/assets/images/brochures.png" alt="Brochures" className="w-full h-full" />
+            <img src="/danube-website/assets/images/brochures.png" alt="Brochures" className="w-full h-full" />
           </div>
 
           <div className="w-full">
             <div className="bg-black rounded-[25px] overflow-hidden">
               <div className="h-50 sm:h-70 md:h-90.5 flex items-end justify-center">
-                <img src="/assets/images/iphone-(17).png" alt="" className="max-h-full w-auto object-contain" />
+                <img src="/danube-website/assets/images/iphone-(17).png" alt="" className="max-h-full w-auto object-contain" />
               </div>
             </div>
 
@@ -66,7 +66,7 @@ export const Brochures = () => {
                       onClick={() => changeSlide(1)}
                       className="absolute -right-3.75 top-1/2 z-50 -translate-y-1/2 cursor-pointer rounded-full p-0 hidden [@media(min-width:1420px)]:flex"
                     >
-                      <img alt="" src="/assets/icons/Group-78191.png" />
+                      <img alt="" src="/danube-website/assets/icons/Group-78191.png" />
                     </Button>
                   )}
 
@@ -83,11 +83,11 @@ export const Brochures = () => {
         <Container>
           <div className="grid grid-cols-1 lg:grid-cols-[1fr_1.5fr] gap-6 py-10 items-stretch">
             <div className="h-full">
-              <img src="/assets/images/brochures-(1).png" alt="Brochures" className="w-full h-full" />
+              <img src="/danube-website/assets/images/brochures-(1).png" alt="Brochures" className="w-full h-full" />
             </div>
 
             <div className="w-full">
-              <img src="/assets/images/Group-2147226548.png" alt="" className="max-h-full w-auto object-contain" />
+              <img src="/danube-website/assets/images/Group-2147226548.png" alt="" className="max-h-full w-auto object-contain" />
 
               <h2 className="text-[24px] font-semibold text-primary sm:text-[28px] md:text-[32px] mt-6">Buy Now</h2>
 
@@ -103,7 +103,7 @@ export const Brochures = () => {
                         onClick={() => changeSlide(1)}
                         className="absolute -right-3.75 top-1/2 z-50 -translate-y-1/2 cursor-pointer rounded-full p-0 hidden [@media(min-width:1420px)]:flex"
                       >
-                        <img alt="" src="/assets/icons/Group-78191.png" />
+                        <img alt="" src="/danube-website/assets/icons/Group-78191.png" />
                       </Button>
                     )}
 
@@ -120,11 +120,11 @@ export const Brochures = () => {
       <Container>
         <div className="grid grid-cols-1 lg:grid-cols-[1fr_1.5fr] gap-6 py-10 items-stretch">
           <div className="h-full">
-            <img src="/assets/images/brochures.png" alt="Brochures" className="w-full h-full" />
+            <img src="/danube-website/assets/images/brochures.png" alt="Brochures" className="w-full h-full" />
           </div>
 
           <div className="w-full">
-            <img src="/assets/images/image-(226).png" alt="" className="max-h-full w-auto object-contain" />
+            <img src="/danube-website/assets/images/image-(226).png" alt="" className="max-h-full w-auto object-contain" />
 
             <h2 className="text-[24px] font-semibold text-primary sm:text-[28px] md:text-[32px] mt-6">Buy Now</h2>
 
@@ -140,7 +140,7 @@ export const Brochures = () => {
                       onClick={() => changeSlide(1)}
                       className="absolute -right-3.75 top-1/2 z-50 -translate-y-1/2 cursor-pointer rounded-full p-0 hidden [@media(min-width:1420px)]:flex"
                     >
-                      <img alt="" src="/assets/icons/Group-78191.png" />
+                      <img alt="" src="/danube-website/assets/icons/Group-78191.png" />
                     </Button>
                   )}
 

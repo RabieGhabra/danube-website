@@ -1,8 +1,8 @@
-/* eslint-disable @next/next/no-img-element */ 
+﻿/* eslint-disable @next/next/no-img-element */ 
 import { Card, CardContent } from "@/components/ui/card"; 
 import Container from "@/components/ui/container"; 
  
-const assetBase = "/assets/images/"; 
+const assetBase = "/danube-website/assets/images/"; 
  
 const shopItems = [ 
   { 

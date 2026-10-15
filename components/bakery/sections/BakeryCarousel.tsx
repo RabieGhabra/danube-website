@@ -1,11 +1,11 @@
-"use client";
+﻿"use client";
 import Image from "next/image";
 
 const BakeryComponent = () => {
   const pastryImages = [
-    "/assets/images/pastry-(1).png",
-    "/assets/images/pastry-(2).png",
-    "/assets/images/pastry-(3).png",
+    "/danube-website/assets/images/pastry-(1).png",
+    "/danube-website/assets/images/pastry-(2).png",
+    "/danube-website/assets/images/pastry-(3).png",
   ];
 
   return (
@@ -14,7 +14,7 @@ const BakeryComponent = () => {
       <div className="mb-6 flex justify-center">
         <div className="flex items-center gap-3">
           <Image
-            src="/assets/images/bakery-logo.png"
+            src="/danube-website/assets/images/bakery-logo.png"
             alt="Bakery Logo"
             width={331}
             height={165}
@@ -41,7 +41,7 @@ const BakeryComponent = () => {
         <div className="flex w-full flex-col items-center justify-center gap-4 md:flex-row md:gap-6">
           <div className="relative w-full md:w-1/4 aspect-829/500">
             <Image
-              src="/assets/images/pastry-(4).png"
+              src="/danube-website/assets/images/pastry-(4).png"
               alt="Croissants"
               fill
               sizes="(max-width: 768px) 100vw, 25vw"
@@ -51,7 +51,7 @@ const BakeryComponent = () => {
 
           <div className="relative w-full md:w-2/4 aspect-1081/700">
             <Image
-              src="/assets/images/pastry-(5).png"
+              src="/danube-website/assets/images/pastry-(5).png"
               alt="Fresh bakery"
               fill
               priority
@@ -62,7 +62,7 @@ const BakeryComponent = () => {
 
           <div className="relative w-full md:w-1/4 aspect-829/500">
             <Image
-              src="/assets/images/pastry-(6).png"
+              src="/danube-website/assets/images/pastry-(6).png"
               alt="Fresh bread"
               fill
               sizes="(max-width: 768px) 100vw, 25vw"
@@ -77,7 +77,7 @@ const BakeryComponent = () => {
 
           <div className="relative h-13.75 w-14.25 shrink-0 lg:h-20.75 lg:w-21.5">
             <Image
-              src="/assets/images/donut.png"
+              src="/danube-website/assets/images/donut.png"
               alt="Donut Icon"
               fill
               className="object-contain"

@@ -1,4 +1,4 @@
-"use client";
+﻿"use client";
 import { Header } from "../layout/Header";
 import { Footer } from "../layout/Footer";
 import { ProductCard } from "@/components/products/ProductCard";
@@ -6,7 +6,7 @@ import Container from "../ui/container";
 import { Categories } from "./sections/Categories";
 import BakeryCarousel from "./sections/BakeryCarousel";
 
-const PRODUCT_IMAGE = "/assets/images/image-142.png";
+const PRODUCT_IMAGE = "/danube-website/assets/images/image-142.png";
 
 const products = [
   { title: "Mekhbaz Artisan\n Sourdough (Classic)", image: PRODUCT_IMAGE, price: "15.00", oldPrice: "20.00" },

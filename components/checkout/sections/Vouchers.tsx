@@ -1,4 +1,4 @@
-/* eslint-disable @next/next/no-img-element */
+﻿/* eslint-disable @next/next/no-img-element */
 "use client";
 import React from "react";
 
@@ -22,7 +22,7 @@ export const Vouchers = () => {
       <div className="mb-5 flex w-full flex-col min-[280px]:flex-row min-[280px]:items-center min-[280px]:justify-between">
         <div className="flex items-center gap-3">
           <img
-            src="/assets/icons/voucher.png"
+            src="/danube-website/assets/icons/voucher.png"
             alt="Voucher"
             className="h-auto w-auto shrink-0 object-contain"
           />
@@ -34,7 +34,7 @@ export const Vouchers = () => {
 
         <div className="cursor-pointer flex shrink-0 items-center gap-2 text-sm font-semibold text-primary sm:gap-4 sm:text-base">
           <img
-            src="/assets/icons/edit.png"
+            src="/danube-website/assets/icons/edit.png"
             alt="Edit"
             className="object-contain"
           />
@@ -80,7 +80,7 @@ export const Vouchers = () => {
               {/* Top Section */}
               <div className="flex items-center gap-2 pb-4 sm:gap-3">
                 <img
-                  src="/assets/icons/gift-(1).png"
+                  src="/danube-website/assets/icons/gift-(1).png"
                   alt="Gift"
                   className="h-auto w-auto shrink-0 object-contain"
                 />
@@ -91,7 +91,7 @@ export const Vouchers = () => {
                       Enjoy{" "}
                       <span className="inline-flex items-center gap-1">
                         <img
-                          src="/assets/icons/SAR.png"
+                          src="/danube-website/assets/icons/SAR.png"
                           alt="SAR"
                           className="h-4 w-4 object-contain"
                         />
@@ -108,7 +108,7 @@ export const Vouchers = () => {
               {/* Divider Image */}
               <div className="relative mb-4">
                 <img
-                  src="/assets/icons/divider.png"
+                  src="/danube-website/assets/icons/divider.png"
                   alt="Divider"
                   className="h-auto w-full object-contain"
                 />

@@ -1,4 +1,4 @@
-"use client";
+﻿"use client";
 /* eslint-disable @next/next/no-img-element */
 import { useState } from "react";
 import { Button } from "@/components/ui/button";
@@ -37,7 +37,7 @@ const Dot = ({
         <div className="flex flex-col">
           <div className="overflow-hidden rounded-[20px] bg-white lg:flex-1 max-[1480px]:lg:flex-none">
             <img
-              src="/assets/images/Rectangle-139456.png"
+              src="/danube-website/assets/images/Rectangle-139456.png"
               alt="Featured products"
               className="h-full w-full object-contain"
             />
@@ -59,7 +59,7 @@ const Dot = ({
         <div className="flex flex-col">
           <div className="flex-1 overflow-hidden rounded-[20px]">
             <img
-              src="/assets/images/Rectangle-139465.png"
+              src="/danube-website/assets/images/Rectangle-139465.png"
               alt="White Friday sale"
               className="h-full w-full object-cover"
             />

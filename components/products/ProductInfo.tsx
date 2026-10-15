@@ -1,4 +1,4 @@
-"use client";
+﻿"use client";
 /* eslint-disable @next/next/no-img-element */ 
 import { useState } from "react";
 import { Button } from "@/components/ui/button";
@@ -12,14 +12,14 @@ const Counter = ({ value }: { value: string | number }) => (
       type="button"
       className="flex h-10 w-10 cursor-pointer items-center justify-center rounded-full bg-white"
     >
-      <img src="/assets/icons/minus.png" alt="Decrease" className="h-4 w-4" />
+      <img src="/danube-website/assets/icons/minus.png" alt="Decrease" className="h-4 w-4" />
     </Button>
     <span className="text-[16px] font-semibold text-primary">{value}</span>
     <Button
       type="button"
       className="flex h-10 w-10 cursor-pointer items-center justify-center rounded-full bg-black"
     >
-      <img src="/assets/icons/plus.png" alt="Increase" className="h-4 w-4" />
+      <img src="/danube-website/assets/icons/plus.png" alt="Increase" className="h-4 w-4" />
     </Button>
   </div>
 );
@@ -34,7 +34,7 @@ const ProductInfo = ({ type }: { type: "detail-meat" | "detail" }) => {
       <div className="mt-4 flex justify-start">
         <Badge className="flex h-8.5 w-23.75 items-center justify-center gap-2 rounded-[17px] bg-[#050505] text-xs font-semibold text-[#90e874] md:text-sm">
           <img
-            src="/assets/icons/discount-shape-(3).png"
+            src="/danube-website/assets/icons/discount-shape-(3).png"
             alt="sale"
             className="h-4 w-4 object-contain md:h-5 md:w-5"
           />
@@ -54,7 +54,7 @@ const ProductInfo = ({ type }: { type: "detail-meat" | "detail" }) => {
       <div className="mt-2 flex items-center gap-1.5">
         <div className="flex items-center">
           <img
-            src="/assets/icons/Group-76720.png"
+            src="/danube-website/assets/icons/Group-76720.png"
             alt="Rating"
             className="mr-2 h-4 w-4 object-contain"
           />
@@ -69,26 +69,26 @@ const ProductInfo = ({ type }: { type: "detail-meat" | "detail" }) => {
       <div className="mt-3 flex w-full items-center justify-between rounded-2xl bg-[#FAFFCF] px-4 py-2.5 md:h-14 md:w-90">
         <div className="flex items-center gap-2.5 text-[15px] font-semibold text-primary">
           <img
-            src="/assets/icons/offer-icon.png"
+            src="/danube-website/assets/icons/offer-icon.png"
             alt="Offer"
             className="h-5 w-5 shrink-0 md:h-6 md:w-6"
           />
           50% off on second Item
         </div>
-        <img src="/assets/icons/arrow-right.png" alt="Arrow right" className="shrink-0" />
+        <img src="/danube-website/assets/icons/arrow-right.png" alt="Arrow right" className="shrink-0" />
       </div>
 
       {/* Price */}
       <div className="mt-4 flex flex-wrap items-center gap-2.5">
         <span className="flex items-center gap-1 text-[24px] font-bold text-primary">
-          <img src="/assets/icons/sar.png" alt="SAR" className="h-5 w-5" />
+          <img src="/danube-website/assets/icons/sar.png" alt="SAR" className="h-5 w-5" />
           26.00
         </span>
         <span className="text-[16px] font-semibold text-[#FF3F3F] line-through">
           30.00
         </span>
         <Badge className="flex h-7.5 w-26 items-center justify-center rounded-[48px] border border-black bg-[radial-gradient(45.83%_45.83%_at_50%_50%,#BAFFA4_0%,#8EF86C_100%)]">
-          <img src="/assets/icons/discount-shape.png" alt="" className="mr-1.5 h-4 w-4" />
+          <img src="/danube-website/assets/icons/discount-shape.png" alt="" className="mr-1.5 h-4 w-4" />
           <span className="text-[15px] font-semibold text-primary">15% Off</span>
         </Badge>
       </div>
@@ -109,7 +109,7 @@ const ProductInfo = ({ type }: { type: "detail-meat" | "detail" }) => {
                   }`}
                 >
                   <img
-                    src={`/assets/icons/${cut.toLowerCase().replace(" ", "-")}.png`}
+                    src={`/danube-website/assets/icons/${cut.toLowerCase().replace(" ", "-")}.png`}
                     alt={cut}
                     className="h-7 w-7 object-contain"
                   />
@@ -138,7 +138,7 @@ const ProductInfo = ({ type }: { type: "detail-meat" | "detail" }) => {
       {/* Add to Cart */}
       <Button className="mt-6 flex h-13 w-full max-w-96 cursor-pointer items-center justify-center gap-2 rounded-2xl bg-[radial-gradient(50%_50%_at_50%_50%,#BAFFA4_0%,#8EF86C_100%)] text-[16px] font-semibold text-primary shadow-md shadow-green-200">
         Add to Cart
-        <img src="/assets/icons/shopping-cart.png" alt="" className="h-5 w-5" />
+        <img src="/danube-website/assets/icons/shopping-cart.png" alt="" className="h-5 w-5" />
       </Button>
     </div>
   );

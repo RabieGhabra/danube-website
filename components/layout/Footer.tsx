@@ -1,4 +1,4 @@
-/* eslint-disable @next/next/no-img-element */
+﻿/* eslint-disable @next/next/no-img-element */
 import { Button } from "@/components/ui/button";
 import Container from "@/components/ui/container";
 
@@ -15,14 +15,14 @@ const footerGroups: FooterGroup[] = [
 ];
 
 const paymentMethods: PaymentMethod[] = [
-  { alt: "Pay pal", src: "/assets/icons/Payment-Icons.png", imageClass: "h-[54.85%] w-[31.75%]" },
-  { alt: "Apple pay", src: "/assets/icons/Payment-Icons-(1).png", imageClass: "h-[43.41%] w-[71.62%]" },
-  { alt: "Mastercard", src: "/assets/icons/Payment-Icons-(2).png", imageClass: "h-[55.83%] w-[65.76%]" },
-  { alt: "Discover", src: "/assets/icons/Payment-Icons-(3).png", imageClass: "h-[58.34%] w-[88.24%]" },
-  { alt: "Visa logo", src: "/assets/icons/Payment-Icons-(4).png", imageClass: "h-[32.58%] w-[70%]" },
-  { alt: "Webmoney", src: "/assets/icons/Payment-Icons-(5).png", imageClass: "h-[62.93%] w-[70.89%]" },
-  { alt: "Affirm", src: "/assets/icons/Payment-Icons-(6).png", imageClass: "h-[43.23%] w-[76.47%]" },
-  { alt: "Paysafe", src: "/assets/icons/Payment-Icons-(7).png", imageClass: "h-[45.2%] w-[76.47%]" },
+  { alt: "Pay pal", src: "/danube-website/assets/icons/Payment-Icons.png", imageClass: "h-[54.85%] w-[31.75%]" },
+  { alt: "Apple pay", src: "/danube-website/assets/icons/Payment-Icons-(1).png", imageClass: "h-[43.41%] w-[71.62%]" },
+  { alt: "Mastercard", src: "/danube-website/assets/icons/Payment-Icons-(2).png", imageClass: "h-[55.83%] w-[65.76%]" },
+  { alt: "Discover", src: "/danube-website/assets/icons/Payment-Icons-(3).png", imageClass: "h-[58.34%] w-[88.24%]" },
+  { alt: "Visa logo", src: "/danube-website/assets/icons/Payment-Icons-(4).png", imageClass: "h-[32.58%] w-[70%]" },
+  { alt: "Webmoney", src: "/danube-website/assets/icons/Payment-Icons-(5).png", imageClass: "h-[62.93%] w-[70.89%]" },
+  { alt: "Affirm", src: "/danube-website/assets/icons/Payment-Icons-(6).png", imageClass: "h-[43.23%] w-[76.47%]" },
+  { alt: "Paysafe", src: "/danube-website/assets/icons/Payment-Icons-(7).png", imageClass: "h-[45.2%] w-[76.47%]" },
 ];
 
 const SocialIcon = ({ src, label }: { src: string; label: string }) => (
@@ -48,22 +48,22 @@ export const Footer = () => (
           aria-label="Danube contact information"
           className="flex min-w-0 flex-col items-center text-center min-[640px]:items-start min-[640px]:text-left"
         >
-          <img className="h-32.5 w-40.25 object-none" alt="Colors primary" src="/assets/images/Logo-(2).png" />
+          <img className="h-32.5 w-40.25 object-none" alt="Colors primary" src="/danube-website/assets/images/Logo-(2).png" />
 
           <address className="mt-2 not-italic">
-            <ContactRow icon="/assets/icons/home.png" alt="Home outline">
+            <ContactRow icon="/danube-website/assets/icons/home.png" alt="Home outline">
               <p className="max-w-84 text-[16px] font-normal leading-6.5">
                 8856 Al-Madinah Al-Munawarah Rd, An Naim District, Jeddah 23526, Saudi Arabia
               </p>
             </ContactRow>
 
-            <ContactRow icon="/assets/icons/phone.png" alt="Phone outline">
+            <ContactRow icon="/danube-website/assets/icons/phone.png" alt="Phone outline">
               <p className="text-[16px] font-normal leading-6.5">
                 (966) 12 658 0602, (966) 78910-456
               </p>
             </ContactRow>
 
-            <ContactRow icon="/assets/icons/email.png" alt="Email outline">
+            <ContactRow icon="/danube-website/assets/icons/email.png" alt="Email outline">
               <a
                 href="mailto:support@danube.sa"
                 className="break-all text-[16px] font-normal leading-6.5 text-white"
@@ -74,10 +74,10 @@ export const Footer = () => (
           </address>
 
           <div className="mt-5 flex items-center justify-center gap-5 min-[640px]:justify-start">
-            <SocialIcon src="/assets/icons/facebook.png" label="Facebook" />
-            <SocialIcon src="/assets/icons/twitter.png" label="Twitter" />
-            <SocialIcon src="/assets/icons/google.png" label="Google" />
-            <SocialIcon src="/assets/icons/linkdin.png" label="Linkedin" />
+            <SocialIcon src="/danube-website/assets/icons/facebook.png" label="Facebook" />
+            <SocialIcon src="/danube-website/assets/icons/twitter.png" label="Twitter" />
+            <SocialIcon src="/danube-website/assets/icons/google.png" label="Google" />
+            <SocialIcon src="/danube-website/assets/icons/linkdin.png" label="Linkedin" />
           </div>
         </section>
 
@@ -123,12 +123,12 @@ export const Footer = () => (
             <img
               className="h-23 w-23 shrink-0 object-cover"
               alt="Qr code"
-              src="/assets/images/qr-code.png"
+              src="/danube-website/assets/images/qr-code.png"
             />
 
             <div className="flex h-14 w-14 shrink-0 items-center justify-center rounded-[12.41px] bg-[#97E080]">
               <img
-                src="/assets/images/Group-2.png"
+                src="/danube-website/assets/images/Group-2.png"
                 alt="App Icon"
                 className="h-8 w-8 object-contain"
               />
@@ -137,23 +137,23 @@ export const Footer = () => (
 
           <div className="mt-4.5 flex flex-col items-center gap-2 min-[640px]:items-start">
             <Button type="button" variant="ghost" className="h-auto w-fit p-0">
-              <img className="h-11.75 w-37.75 object-contain" alt="App store" src="/assets/images/pngitem-1144050-3.png" />
+              <img className="h-11.75 w-37.75 object-contain" alt="App store" src="/danube-website/assets/images/pngitem-1144050-3.png" />
             </Button>
 
             <Button type="button" variant="ghost" className="h-auto w-fit p-0">
-              <img className="h-11.75 w-37.5 object-contain" alt="Google play" src="/assets/images/toppng-2.png" />
+              <img className="h-11.75 w-37.5 object-contain" alt="Google play" src="/danube-website/assets/images/toppng-2.png" />
             </Button>
           </div>
         </section>
       </div>
 
       {/* Divider */}
-      <img className="mt-9.75 h-px w-full object-cover" alt="Line" src="/assets/icons/line.png" />
+      <img className="mt-9.75 h-px w-full object-cover" alt="Line" src="/danube-website/assets/icons/line.png" />
 
       {/* Bottom */}
       <div className="flex flex-col gap-5 py-5 min-[640px]:flex-row min-[640px]:items-center min-[640px]:justify-between">
         <p className="text-[12px] font-normal leading-6.5">
-          Copyright © 2022 Danube Ltd. All Rights Reserved.
+          Copyright Â© 2022 Danube Ltd. All Rights Reserved.
         </p>
 
         <div className="flex flex-wrap items-start gap-2.25" aria-label="Accepted payment methods">

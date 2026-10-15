@@ -1,4 +1,4 @@
-"use client";
+﻿"use client";
 /* eslint-disable @next/next/no-img-element */
 
 type CategoryItem = {
@@ -9,17 +9,17 @@ type CategoryItem = {
   offset?: string;
 };
 
-const backgroundImage = "/assets/images/background-(2).png";
+const backgroundImage = "/danube-website/assets/images/background-(2).png";
 
 const categoryItems: CategoryItem[] = [
-  { name: "Croissant", image: "/assets/images/croissant.png", width: "96px", height: "119px", offset: "mb-0" },
-  { name: "Donuts", image: "/assets/images/donuts.png", width: "84px", height: "104px", offset: "mb-1" },
-  { name: "Brownies", image: "/assets/images/brownies.png", width: "124px", height: "84px", offset: "mb-5" },
-  { name: "Bread", image: "/assets/images/bread-(2).png", width: "46x", height: "110px", offset: "mb-13" },
-  { name: "Danube Cakes", image: "/assets/images/cakes.png", width: "84px", height: "104px", offset: "-mb-3"},
-  { name: "Cakes & Muffins", image: "/assets/images/muffins.png", width: "124px", height: "76px" },
-  { name: "Rusk", image: "/assets/images/rusk.png", width: "104px", height: "69px", offset: "mb-2" },
-  { name: "Sambosa Leaves & Dough", image: "/assets/images/sambosa.png", width: "106px",height: "96px", offset: "mb-6" },
+  { name: "Croissant", image: "/danube-website/assets/images/croissant.png", width: "96px", height: "119px", offset: "mb-0" },
+  { name: "Donuts", image: "/danube-website/assets/images/donuts.png", width: "84px", height: "104px", offset: "mb-1" },
+  { name: "Brownies", image: "/danube-website/assets/images/brownies.png", width: "124px", height: "84px", offset: "mb-5" },
+  { name: "Bread", image: "/danube-website/assets/images/bread-(2).png", width: "46x", height: "110px", offset: "mb-13" },
+  { name: "Danube Cakes", image: "/danube-website/assets/images/cakes.png", width: "84px", height: "104px", offset: "-mb-3"},
+  { name: "Cakes & Muffins", image: "/danube-website/assets/images/muffins.png", width: "124px", height: "76px" },
+  { name: "Rusk", image: "/danube-website/assets/images/rusk.png", width: "104px", height: "69px", offset: "mb-2" },
+  { name: "Sambosa Leaves & Dough", image: "/danube-website/assets/images/sambosa.png", width: "106px",height: "96px", offset: "mb-6" },
 ];
 
 const categoryLabel = (name: string) => {

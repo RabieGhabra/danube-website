@@ -1,29 +1,29 @@
-/* eslint-disable @next/next/no-img-element */
+﻿/* eslint-disable @next/next/no-img-element */
 "use client";
 import Container from "../../ui/container";
 
 export const SubscribeSave = () => {
   const images = {
-    subscribeSave: "/assets/images/subscribe-save.png",
-    colgate: "/assets/images/colgate.png",
-    mint: "/assets/images/mint.png",
-    bread: "/assets/images/bread-(3).png",
-    kinza: "/assets/images/kinza-(2).png",
-    someByMi: "/assets/images/somebymi.png",
-    dreamWhip: "/assets/images/dreamwhip.png",
-    popcorn: "/assets/images/popcorn-(2).png",
-    chipsy: "/assets/images/chipsy.png",
-    chupaChups: "/assets/images/chupachups.png",
-    lollipop: "/assets/images/lollipop.png",
-    coin1: "/assets/images/coin-(1).png",
-    coin2: "/assets/images/coin-(2).png",
-    coin3: "/assets/images/coin-(3).png",
-    coin4: "/assets/images/coin-(4).png",
-    coin5: "/assets/images/coin-(5).png",
-    coin6: "/assets/images/coin-(6).png",
-    coin7: "/assets/images/coin-(7).png",
-    coin8: "/assets/images/coin-(8).png",
-    coin9: "/assets/images/coin-(9).png",
+    subscribeSave: "/danube-website/assets/images/subscribe-save.png",
+    colgate: "/danube-website/assets/images/colgate.png",
+    mint: "/danube-website/assets/images/mint.png",
+    bread: "/danube-website/assets/images/bread-(3).png",
+    kinza: "/danube-website/assets/images/kinza-(2).png",
+    someByMi: "/danube-website/assets/images/somebymi.png",
+    dreamWhip: "/danube-website/assets/images/dreamwhip.png",
+    popcorn: "/danube-website/assets/images/popcorn-(2).png",
+    chipsy: "/danube-website/assets/images/chipsy.png",
+    chupaChups: "/danube-website/assets/images/chupachups.png",
+    lollipop: "/danube-website/assets/images/lollipop.png",
+    coin1: "/danube-website/assets/images/coin-(1).png",
+    coin2: "/danube-website/assets/images/coin-(2).png",
+    coin3: "/danube-website/assets/images/coin-(3).png",
+    coin4: "/danube-website/assets/images/coin-(4).png",
+    coin5: "/danube-website/assets/images/coin-(5).png",
+    coin6: "/danube-website/assets/images/coin-(6).png",
+    coin7: "/danube-website/assets/images/coin-(7).png",
+    coin8: "/danube-website/assets/images/coin-(8).png",
+    coin9: "/danube-website/assets/images/coin-(9).png",
   };
 
   const products = [

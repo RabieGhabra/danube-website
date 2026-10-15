@@ -1,4 +1,4 @@
-"use client";
+﻿"use client";
 import { Header } from "../layout/Header";
 import { Footer } from "../layout/Footer";
 import SidebarMenu from "../dashboard/SidebarMenu";
@@ -8,7 +8,7 @@ import { ProductCard } from "../products/ProductCard";
 const wishlistItems = [
   {
     title: "Dream Whip Whipped Topping...",
-    image: "/assets/images/dream-whip.png",
+    image: "/danube-website/assets/images/dream-whip.png",
     price: "50.00",
     rating: "4.5",
     reviews: "(5K)",
@@ -16,7 +16,7 @@ const wishlistItems = [
   },
   {
     title: "Danube Rocket Leaves 1pc",
-    image: "/assets/images/mint.png",
+    image: "/danube-website/assets/images/mint.png",
     price: "50.00",
     rating: "4.5",
     reviews: "(5K)",
@@ -24,7 +24,7 @@ const wishlistItems = [
   },
   {
     title: "Al-Watania Poultry Medium-Large...",
-    image: "/assets/images/eggs.png",
+    image: "/danube-website/assets/images/eggs.png",
     price: "50.00",
     rating: "4.5",
     reviews: "(5K)",
@@ -32,7 +32,7 @@ const wishlistItems = [
   },
   {
     title: "Lays Chips\n Ketchup Flavour",
-    image: "/assets/images/chips.png",
+    image: "/danube-website/assets/images/chips.png",
     price: "50.00",
     rating: "4.5",
     reviews: "(5K)",
@@ -40,7 +40,7 @@ const wishlistItems = [
   },
   {
     title: "Danube Bakery White Bread Mini",
-    image: "/assets/images/bread-(4).png",
+    image: "/danube-website/assets/images/bread-(4).png",
     price: "50.00",
     rating: "4.8",
     reviews: "(5K)",
@@ -48,7 +48,7 @@ const wishlistItems = [
   },
   {
     title: "Kinza Cola Carbonated Drink",
-    image: "/assets/images/kinza.png",
+    image: "/danube-website/assets/images/kinza.png",
     price: "50.00",
     rating: "4.8",
     reviews: "(5K)",

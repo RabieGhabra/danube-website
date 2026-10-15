@@ -1,9 +1,9 @@
-/* eslint-disable @next/next/no-img-element */
+﻿/* eslint-disable @next/next/no-img-element */
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 import Container from "@/components/ui/container";
 
-const productImage = "/assets/images/Group-(5).png";
+const productImage = "/danube-website/assets/images/Group-(5).png";
 
 const giftCards = [
   { amount: "500", alignment: "pt-[58px]" },
@@ -17,13 +17,13 @@ export const GiftCardPromotion = () => {
       <div className="relative flex w-full overflow-hidden rounded-[25px] bg-[linear-gradient(135deg,rgba(255,251,145,1)_0%,rgba(151,224,128,1)_54%,rgba(255,231,178,1)_100%)] px-[4%] py-12 md:py-14 lg:py-16 min-h-75 md:min-h-112.5 lg:min-h-137.5">
         {/* Ribbons */}
         <img
-          src="/assets/images/Group-(4).png"
+          src="/danube-website/assets/images/Group-(4).png"
           alt=""
           aria-hidden="true"
           className="pointer-events-none absolute left-0 top-0 h-24 w-32 md:h-36 md:w-48 lg:h-46.5 lg:w-63.25 object-contain"
         />
         <img
-          src="/assets/images/Group-(3).png"
+          src="/danube-website/assets/images/Group-(3).png"
           alt=""
           aria-hidden="true"
           className="pointer-events-none absolute right-0 top-0 h-24 w-32 md:h-36 md:w-48 lg:h-46.5 lg:w-63.25 object-contain"
@@ -34,7 +34,7 @@ export const GiftCardPromotion = () => {
           {/* Main gift card image */}
           <div className="flex shrink-0 items-center pt-10 md:pt-20 lg:pt-32">
             <img
-              src="/assets/images/Group-(2).png"
+              src="/danube-website/assets/images/Group-(2).png"
               alt="Gift card"
               className="w-60 md:w-72 lg:w-87.75 h-auto"
             />
@@ -67,7 +67,7 @@ export const GiftCardPromotion = () => {
 
                       <div className="mt-3 flex items-center gap-1.25">
                         <img
-                          src="/assets/icons/SAR-(2).png"
+                          src="/danube-website/assets/icons/SAR-(2).png"
                           alt="SAR"
                           className="h-6 w-6 md:h-6.75 md:w-6"
                         />
@@ -85,7 +85,7 @@ export const GiftCardPromotion = () => {
                         className="flex items-center justify-center h-13.75 w-13.75 md:h-16.5 md:w-16.5 rounded-full bg-[radial-gradient(45.83%_45.83%_at_50%_50%,#BAFFA4_0%,#8EF86C_100%)] p-0 shadow-none"
                       >
                         <img
-                          src="/assets/icons/shopping-cart.png"
+                          src="/danube-website/assets/icons/shopping-cart.png"
                           alt=""
                           aria-hidden="true"
                           className="h-6 w-6 md:h-7 md:w-7"

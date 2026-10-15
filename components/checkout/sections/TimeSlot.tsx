@@ -1,4 +1,4 @@
-/* eslint-disable @next/next/no-img-element */
+﻿/* eslint-disable @next/next/no-img-element */
 "use client";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
@@ -17,7 +17,7 @@ export const TimeSlot = () => {
         {/* Header Section */}
         <div className="mb-5 flex items-center gap-3">
           <img
-            src="/assets/icons/time-slot.png"
+            src="/danube-website/assets/icons/time-slot.png"
             alt="Voucher"
             className="h-auto w-auto shrink-0 object-contain"
           />
