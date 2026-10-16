@@ -7,7 +7,7 @@ const products = [
   { title: "Kinza Cola\nCarbonated Drink", image: assetPath("/assets/images/chips.png") },
   { title: "Danube Tomato\n1kg", image: assetPath("/assets/images/banana(2).png") },
   { title: "Danube Imported\nBanana 1 kg", image: assetPath("/assets/images/fresh-cream.png") },
-  { title: "Danube Imported\nBanana 1 kg", image: assetPath("/assets/images/Kinza.png") },
+  { title: "Danube Imported\nBanana 1 kg", image: assetPath("/assets/images/kinza.png") },
 ];
 
 export const MostWishlistedProducts = () => {

@@ -4,7 +4,7 @@ import { ProductCard } from "@/components/products/ProductCard";
 
 const products = [
   { title: "Al-Watania Poultry\nMedium-Large...", image: assetPath("/assets/images/eggs.png") },
-  { title: "Kinza Cola\nCarbonated Drink", image: assetPath("/assets/images/Kinza.png") },
+  { title: "Kinza Cola\nCarbonated Drink", image: assetPath("/assets/images/kinza.png") },
   { title: "Danube Tomato\n1kg", image: assetPath("/assets/images/tomato.png") },
   { title: "Danube Imported\nBanana 1 kg", image: assetPath("/assets/images/bread.png") },
   { title: "Danube Imported\nBanana 1 kg", image: assetPath("/assets/images/parsley.png") },
