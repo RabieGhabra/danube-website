@@ -90,7 +90,7 @@ export const OffersGrid = ({
                       alt="Floating Background"
                       className="absolute left-1/2 top-[4%] z-15 w-[92%] max-w-[92%] -translate-x-1/2 pointer-events-none"
                     />
-                    <div className="absolute left-1/2 top-[5%] z-18 flex w-[75%] -translate-x-1/2 flex-col items-center gap-[1%] pointer-events-none">
+                    <div className="absolute left-1/2 top-[8%] z-18 flex w-[75%] -translate-x-1/2 flex-col items-center gap-[1%] pointer-events-none">
                       <span className="whitespace-nowrap text-center font-black leading-none text-[#FFCE56] text-[clamp(9px,3.2vw,25px)]">
                         BEST
                       </span>
@@ -188,7 +188,7 @@ export const OffersGrid = ({
                         key={floatingIndex}
                         className="flex max-w-full items-end justify-center"
                         style={{
-                          transform: `translateX(${translateX}) translateY(${translateY}) scale(${offer.floatingSize || 1}) scaleY(${floatingIndex === offer.floatingImages.length - 2 ? 0.88 : floatingIndex === 1 ? 0.93 : 1})`,
+                          transform: `translateX(${translateX}) translateY(${translateY}) scale(${offer.floatingSize || 1}) scaleY(${floatingIndex === offer.floatingImages.length - 2 ? 0.85 : floatingIndex === 1 ? 0.9 : 1})`,
                           transformOrigin: "bottom center",
                           zIndex,
                           marginLeft: floatingIndex > 0 ? "-18px" : "0",
