@@ -47,12 +47,15 @@ export const Brochures = () => {
           </div>
 
           <div className="w-full">
-            <div className="bg-black rounded-[25px] overflow-hidden">
-              <div className="h-50 sm:h-70 md:h-90.5 flex items-end justify-center">
-                <img src={assetPath("/assets/images/iphone-(17).png")} alt="" className="max-h-full w-auto object-contain" />
-              </div>
+          <div className="bg-black rounded-[25px] overflow-hidden pt-6">
+            <div className="h-50 sm:h-70 md:h-90.5 flex items-end justify-center">
+              <img
+                src={assetPath("/assets/images/iphone-(17).png")}
+                alt=""
+                className="max-h-full w-auto object-contain"
+              />
             </div>
-
+          </div>
             <h2 className="text-[24px] font-semibold text-primary sm:text-[28px] md:text-[32px] mt-6">Buy Now</h2>
 
             <div className="mt-5 grid grid-cols-1 gap-6 sm:grid-cols-2 [@media(min-width:1420px)]:grid-cols-3">

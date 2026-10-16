@@ -13,7 +13,7 @@ import { Badge } from "../ui/badge";
 /* ================= DATA ================= */
 
 const products = [
-  { title: "Lâ€™usine White Sliced Bread 600g", image: assetPath("/assets/images/bread.png"), oldPrice: "20.00"},
+  { title: "L’usine White Sliced Bread 600g", image: assetPath("/assets/images/bread.png"), oldPrice: "20.00"},
   { title: "Danube Cucumber\n (Tray) 900g", image: assetPath("/assets/images/cucumber.png"), oldPrice: "20.00"},
   { title: "Danube Parsley\n Leaves", image: assetPath("/assets/images/parsley.png"), oldPrice: "20.00"},
   { title: "Danube Tomato 1kg", image: assetPath("/assets/images/tomato.png"), oldPrice: "20.00" },
@@ -53,7 +53,7 @@ export const ProductListing = () => {
             <div className="mb-6 flex flex-col items-start justify-between gap-4 sm:flex-row sm:items-center">
               <p className="text-sm font-medium text-gray-700">
                 1,600 Results for{" "}
-                <span className="font-bold text-black">â€œChipsâ€</span>
+                <span className="font-bold text-black">“Chips”</span>
               </p>
 
               <Button

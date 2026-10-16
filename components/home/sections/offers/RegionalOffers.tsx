@@ -60,5 +60,5 @@ const homeOffer: OfferImage[] = [
 ];
 
 export const RegionalOffers = () => {
-  return <OffersGrid offers={homeOffer} showNavigation={true} />;
+  return <OffersGrid offers={homeOffer} showNavigation={true}  />;
 };

@@ -14,6 +14,7 @@ const brands = [
   { name: "Doritos", count: 18 },
   { name: "Chipsey", count: 22 },
 ];
+
 const originCountries = [
   { name: "Saudi Arabia", count: 26 },
   { name: "United Arab Emirates", count: 26 },
@@ -22,6 +23,7 @@ const originCountries = [
   { name: "Egypt", count: 14 },
   { name: "Turkey", count: 19 },
 ];
+
 const sizes = [
   { name: "155g", count: 26 },
   { name: "165g", count: 26 },
@@ -31,7 +33,7 @@ const sizes = [
 ];
 
 const checkClass =
-  "h-6 w-6 cursor-pointer appearance-none rounded-md border-0 bg-[#F2F3F7] checked:bg-green-500 checked:after:flex checked:after:h-full checked:after:w-full checked:after:items-center checked:after:justify-center checked:after:text-[16px] checked:after:font-bold checked:after:text-white checked:after:content-['âœ“']";
+  "h-6 w-6 cursor-pointer appearance-none rounded-md border-0 bg-[#F2F3F7] checked:bg-green-500 checked:after:flex checked:after:h-full checked:after:w-full checked:after:items-center checked:after:justify-center checked:after:text-[16px] checked:after:font-bold checked:after:text-white checked:after:content-['✔']";
 
 const List = ({ items }: { items: { name: string; count: number }[] }) => (
   <ul className="space-y-3">

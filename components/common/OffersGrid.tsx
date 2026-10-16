@@ -24,7 +24,6 @@ type OffersGridProps = {
   showNavigation?: boolean;
   className?: string;
 };
-
 const SPECIAL_OFFERS = ["Offer 11", "Offer 12", "Offer 16"] as const;
 
 export const OffersGrid = ({
@@ -159,14 +158,7 @@ export const OffersGrid = ({
                 )}
 
                 {/* Floating Images */}
-                <div
-                  className="absolute left-1/2 z-30 flex w-[90%] -translate-x-1/2 items-end justify-center"
-                  style={{
-                    bottom: offer.floatingOffset
-                      ? `${offer.floatingOffset}%`
-                      : "13%",
-                  }}
-                >
+                <div className="absolute inset-x-0 bottom-3 z-30 flex w-full -translate-y-4 items-end justify-between px-1.5 sm:px-2">
                   {offer.floatingImages.map((image, floatingIndex) => {
                     const translateX =
                       offer.alt === "Offer 16"
@@ -196,7 +188,8 @@ export const OffersGrid = ({
                         key={floatingIndex}
                         className="flex max-w-full items-end justify-center"
                         style={{
-                          transform: `translateX(${translateX}) translateY(${translateY}) scale(${offer.floatingSize || 1})`,
+                          transform: `translateX(${translateX}) translateY(${translateY}) scale(${offer.floatingSize || 1}) scaleY(${floatingIndex === offer.floatingImages.length - 2 ? 0.88 : floatingIndex === 1 ? 0.93 : 1})`,
+                          transformOrigin: "bottom center",
                           zIndex,
                           marginLeft: floatingIndex > 0 ? "-18px" : "0",
                           maxWidth: "100%",
@@ -223,7 +216,7 @@ export const OffersGrid = ({
             size="icon"
             aria-label="Next"
             onClick={() => changeSlide(1)}
-            className="absolute -right-3.75 top-1/2 z-9999 -translate-y-1/2 cursor-pointer rounded-full p-0 lg:flex"
+            className="absolute -right-3.75 top-1/2 z-9999 hidden -translate-y-1/2 cursor-pointer rounded-full p-0 lg:flex"
           >
             <img alt="" src={assetPath("/assets/icons/Group-78191.png")} />
           </Button>
